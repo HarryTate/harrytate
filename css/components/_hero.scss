@@ -1,0 +1,38 @@
+.hero{
+    &__background {
+        background-color: $primary-blue;
+        height: 40vh;
+        min-height: 300px;
+        position: relative;
+    }
+    &__text {
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    
+    }
+    &__title{
+      font-weight: 750;
+      text-transform: uppercase;
+      font-size: 5rem;
+      margin-bottom: 0;
+    }
+    &__strapline{
+      font-size: 2em;
+      font-weight: 100;
+    }
+    }
+
+    @media(max-width:838px){
+        .hero{
+            &__title{
+              font-size: 3rem;
+          }
+          &__strapline{
+            font-size: 1.7em;
+          }
+        }
+        }
