@@ -1,1 +1,3 @@
-import "./src/pages/styles/global.css"
+module.exports = {
+  plugins: [`gatsby-plugin-styled-components`],
+}

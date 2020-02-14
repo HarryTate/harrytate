@@ -1,0 +1,22 @@
+.header {
+  @include for-tablet-portrait-up {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+  }
+
+  text-align: center;
+  margin: auto;
+  height: 70px;
+  background-color: $dark-blue;
+  padding: 0 20px;
+}
+
+.header__logo {
+  flex: 1 1 66%;
+  margin: auto;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #eee;
+}

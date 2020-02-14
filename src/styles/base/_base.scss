@@ -1,0 +1,11 @@
+.section {
+  padding: 60px 0;
+
+  &--blue {
+    background-color: $blue;
+  }
+
+  &--cream {
+    background-color: $cream;
+  }
+}

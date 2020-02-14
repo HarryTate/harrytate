@@ -1,0 +1,20 @@
+.hero-home {
+  background: $dark-blue;
+  height: 60vh;
+  min-height: 50vh;
+  display: flex;
+  color: #eee;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 1px 2px 1px #a59a9a;
+
+  &__heading {
+    @include h1;
+    text-transform: uppercase;
+  }
+
+  &__subtitle {
+    font-size: 1.6rem;
+  }
+}
