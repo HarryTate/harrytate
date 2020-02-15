@@ -1,7 +1,7 @@
 .skills {
   &__heading {
     @include h2;
-    color: $blue;
+    color: #eee;
     padding: 5px;
     margin-bottom: .25rem;
   }
@@ -10,4 +10,5 @@
     font-size: 1.6rem;
     font-weight: bold;
   }
+
 }

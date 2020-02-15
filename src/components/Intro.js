@@ -12,22 +12,25 @@ export default class HeroHome extends Component {
           <div className="row">
             <div className="intro__content">
               <p className="intro__content-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus a
-                hic consectetur fuga autem nam repudiandae vel ut unde
-                excepturi? Lorem ipsum dolor sit amet consectetur adipisicing
-                elit. Reiciendis consequatur temporibus facilis beatae in minus
-                ratione, unde praesentium, laborum quisquam debitis impedit?
+                Hi, I'm Harry and I'm passionate about building websites. I've
+                been working as a web developer for at the&nbsp;
+                <a className="text--bold" href="https://www.managers.org.uk">
+                  Chartered Management Institue
+                </a>
+                &nbsp;as a Front-End Developer and am currently based in
+                Cambridgeshire.
               </p>
-              <p className="intro__content-text">
+              {/* <p className="intro__content-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
                 dolorum in consequatur quisquam, dolor magnam, maiores
-                voluptates velit deleniti dolorem facilis? Eum asperiores harum
-                voluptatibus eaque iure! Nulla nemo, assumenda dignissimos
-                repudiandae fuga molestias amet! Dolor, repellendus hic vel
-                quasi quisquam nisi commodi deserunt temporibus? Deleniti cum
-                enim ullam excepturi.
-              </p>
+                voluptates velit deleniti dolorem facilis?
+              </p> */}
             </div>
+          </div>
+          <div className="row">
+            <a href="" className="btn">
+              Find out more about me
+            </a>
           </div>
         </div>
       </section>

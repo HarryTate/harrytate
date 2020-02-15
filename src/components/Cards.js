@@ -77,20 +77,6 @@ export default class Cards extends Component {
                 </p>
               </div>
             </div>
-            <div className="card">
-              <img
-                className="card__img"
-                src="https://source.unsplash.com/600x300/"
-                alt="Sample"
-              />
-              <div className="card__text">
-                <h3>Sanity check</h3>
-                <p>
-                  Objectively innovate empowered manufactured products whereas
-                  parallel platforms.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

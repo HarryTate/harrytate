@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react"
 
 export default function Footer() {
   return (
-    <React.Fragment>
-      <p>This is the footer</p>
-    </React.Fragment>
+    <div className="container">
+      <ul className="footer-social__list">
+        <li className="footer-social__item">LinkedIn</li>
+        <li className="footer-social__item">Github</li>
+        <li className="footer-social__item">Codepen</li>
+      </ul>
+    </div>
   )
 }

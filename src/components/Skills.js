@@ -24,12 +24,13 @@ export default class Skills extends Component {
   }
   render() {
     return (
-      <section className="section section--cream">
+      <section className="section section--dark-blue">
         <div className="container">
           <div className="skills">
             <h2 className="skills__heading">Skills</h2>
             {this.state.skills.map((skills, i) => (
-              <div key={i} className="skills-card">
+              <div key={i} className="skills">
+                <img className="skills__icon" src="" alt="" />
                 <div className="skills__body">
                   <h3 className="skills__title">{skills.title}</h3>
                   <p className="skills-description">{skills.description}</p>
