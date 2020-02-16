@@ -7,7 +7,7 @@ export default class Header extends Component {
     return (
       <header className="header">
         <Link to="/" className="header__logo">
-          Harry Tate
+          {"< "}Harry Tate {"/>"}
         </Link>
         <nav className="nav">
           <ul className="nav__list">

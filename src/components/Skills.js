@@ -1,24 +1,48 @@
 import React, { Component } from "react"
 import "../styles/main.scss"
+import html5 from "../images/HTML5.png"
+import css from "../images/CSS.png"
+import javascript from "../images/javascript.png"
+import jQuery from "../images/jquery.png"
+import sass from "../images/sass.png"
+import git from "../images/git.png"
+import webpack from "../images/webpack.png"
+import reactIcon from "../images/react.png"
 
 export default class Skills extends Component {
   state = {
     skills: [
       {
+        image: html5,
         title: "HTML5",
-        description: "lorem ipsum al to dorrr",
       },
       {
+        image: css,
         title: "CSS",
-        description: "lorem ipsum al to dorrr",
       },
       {
-        title: "Javascript",
-        description: "lorem ipsum al to dorrr nrj krj rgjk ekj ejk",
+        image: javascript,
+        title: "JavaScript",
       },
       {
-        title: "fourth project",
-        description: "lorem ipsum al to dorrr nrj krj rgjk ekj ejk",
+        image: jQuery,
+        title: "jQuery",
+      },
+      {
+        image: sass,
+        title: "Sass",
+      },
+      {
+        image: git,
+        title: "git",
+      },
+      {
+        image: reactIcon,
+        title: "React",
+      },
+      {
+        image: webpack,
+        title: "Webpack",
       },
     ],
   }
@@ -26,18 +50,18 @@ export default class Skills extends Component {
     return (
       <section className="section section--dark-blue">
         <div className="container">
-          <div className="skills">
-            <h2 className="skills__heading">Skills</h2>
+          <h2 className="skills__heading">Skills</h2>
+          <ul className="skills">
             {this.state.skills.map((skills, i) => (
-              <div key={i} className="skills">
-                <img className="skills__icon" src="" alt="" />
-                <div className="skills__body">
-                  <h3 className="skills__title">{skills.title}</h3>
-                  <p className="skills-description">{skills.description}</p>
+              <li key={i} className="skill">
+                <img className="skill__icon" src={skills.image} alt="" />
+                <div className="skill__body">
+                  <h3 className="skill__title">{skills.title}</h3>
+                  <p className="skill-description">{skills.description}</p>
                 </div>
-              </div>
+              </li>
             ))}
-          </div>
+          </ul>
         </div>
       </section>
     )

@@ -14,7 +14,12 @@ export default class HeroHome extends Component {
               <p className="intro__content-text">
                 Hi, I'm Harry and I'm passionate about building websites. I've
                 been working as a web developer for at the&nbsp;
-                <a className="text--bold" href="https://www.managers.org.uk">
+                <a
+                  className="text--bold"
+                  href="https://www.managers.org.uk"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   Chartered Management Institue
                 </a>
                 &nbsp;as a Front-End Developer and am currently based in
@@ -28,9 +33,9 @@ export default class HeroHome extends Component {
             </div>
           </div>
           <div className="row">
-            <a href="" className="btn">
+            {/* <a href="#" className="btn">
               Find out more about me
-            </a>
+            </a> */}
           </div>
         </div>
       </section>

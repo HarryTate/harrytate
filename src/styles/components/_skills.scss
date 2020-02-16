@@ -1,14 +1,35 @@
 .skills {
+  padding: 20px 0;
+
+  @include for-tablet-portrait-up {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   &__heading {
     @include h2;
     color: #eee;
     padding: 5px;
     margin-bottom: .25rem;
+    text-align: center;
   }
+}
+
+.skill {
+  flex: 1 1 50%;
+  margin: 1.5rem 0;
+
+  @include for-tablet-landscape-up {
+    flex: 1 1 25%;
+  }
+
+  text-align: center;
 
   &__title {
-    font-size: 1.6rem;
     font-weight: bold;
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 10px 0 0;
   }
-
 }

@@ -4,9 +4,17 @@ export default function Footer() {
   return (
     <div className="container">
       <ul className="footer-social__list">
-        <li className="footer-social__item">LinkedIn</li>
-        <li className="footer-social__item">Github</li>
-        <li className="footer-social__item">Codepen</li>
+        <li className="footer-social__item">
+          <a href="https://www.linkedin.com/in/harry-tate-0576a814b/">
+            LinkedIn
+          </a>
+        </li>
+        <li className="footer-social__item">
+          <a href="https://github.com/HarryTate">Github</a>
+        </li>
+        <li className="footer-social__item">
+          <a href="https://www.codepen.io/harrytate/">Codepen</a>
+        </li>
       </ul>
     </div>
   )
