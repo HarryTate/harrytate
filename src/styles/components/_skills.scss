@@ -19,12 +19,16 @@
 .skill {
   flex: 1 1 50%;
   margin: 1.5rem 0;
+  text-align: center;
+
+  &__icon {
+    width: 100px;
+  }
 
   @include for-tablet-landscape-up {
     flex: 1 1 25%;
   }
 
-  text-align: center;
 
   &__title {
     font-weight: bold;
