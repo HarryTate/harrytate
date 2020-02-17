@@ -12,8 +12,8 @@ export default class HeroHome extends Component {
           <div className="row">
             <div className="intro__content">
               <p className="intro__content-text">
-                Hi, I'm Harry and I'm passionate about building websites. I've
-                been working as a web developer for at the&nbsp;
+                Hi, I'm Harry and I'm passionate about building responsive,
+                websites. I've been working as a web developer at the&nbsp;
                 <a
                   className="text--bold"
                   href="https://www.managers.org.uk"
@@ -22,8 +22,8 @@ export default class HeroHome extends Component {
                 >
                   Chartered Management Institue
                 </a>
-                &nbsp;as a Front-End Developer and am currently based in
-                Cambridgeshire.
+                &nbsp;as a Front-End Developer. In 2017 I completed a degree in
+                Computing BSc at Nottingham Trent University.
               </p>
               {/* <p className="intro__content-text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
