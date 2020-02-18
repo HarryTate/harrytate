@@ -18,5 +18,7 @@
 }
 
 .row {
-  display: flex;
+  @include for-tablet-landscape-up {
+    display: flex;
+  }
 }

@@ -8,7 +8,7 @@ const about = ({ data }) => {
     <React.Fragment>
       <Header />
       <h1>About {data.site.siteMetadata.title}</h1>
-      This is the about page {1 + 1}
+      This is the ab out page {1 + 1}
       <Footer />
     </React.Fragment>
   )

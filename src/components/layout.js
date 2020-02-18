@@ -1,7 +1,12 @@
 import React from "react"
 
-export default ({ children }) => (
-  <div style={{ margin: `0 auto`, maxWidth: 650, padding: `0 1rem` }}>
-    {children}
-  </div>
-)
+export default props => {
+  return (
+    <section className={`section section--${props.color}`}>
+      <div className="container">
+        <h2 className="section--heading">{props.heading}</h2>
+        <div className="row">{props.children}</div>
+      </div>
+    </section>
+  )
+}

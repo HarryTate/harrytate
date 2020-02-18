@@ -1,17 +1,28 @@
 .cards {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
+  @include for-tablet-landscape-up {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 }
 
 .card {
-  flex: 0 0 200px;
-  margin: 10px;
+  @include for-tablet-portrait-up {
+    flex: 25%;
+  }
+
+  @include for-tablet-landscape-up {
+    flex: 50%;
+  }
+
+  // margin: 1.5rem;
+  margin: 1rem;
   border: 1px solid #ccc;
   box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
 
   &__img {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
   }
 
   &__text {

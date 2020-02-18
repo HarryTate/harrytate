@@ -1,0 +1,43 @@
+.testimonials {
+  flex: 1 1 50%;
+  border: 4px solid #eee;
+  padding: 15px 10px;
+  border-radius: 2rem;
+  margin: 2rem 1rem;
+
+  &__quote {
+    font-style: italic;
+    font-size: 1.2rem;
+    position: relative;
+  }
+
+  &__quote-mark {
+
+    &:after,
+    &:before {
+      font-weight: bold;
+      font-style: italic;
+      font-size: 1.8rem;
+      color: #eee;
+    }
+  }
+
+  &__quote-mark--before:before {
+    vertical-align: super;
+    content: '"';
+    top: -10px;
+    left: -18px;
+    position: absolute;
+  }
+
+  &__quote-mark--after:after {
+    vertical-align: sub;
+    content: '"';
+  }
+
+  &__name {
+    font-weight: bold;
+    display: block;
+    margin-top: .5rem;
+  }
+}

@@ -56,20 +56,6 @@ export default class Cards extends Component {
                 alt="sameple"
               />
               <div className="card__text">
-                <h3>Best in className</h3>
-                <p>
-                  Imagine jumping into that boat, and just letting it sail
-                  wherever the wind takes you...
-                </p>
-              </div>
-            </div>
-            <div className="card">
-              <img
-                className="card__img"
-                src="https://source.unsplash.com/600x300/"
-                alt="sameple"
-              />
-              <div className="card__text">
                 <h3>Dynamically innovate supply chains</h3>
                 <p>
                   Holisticly predominate extensible testing procedures for
