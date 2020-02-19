@@ -7,7 +7,7 @@ export default class HeroHome extends Component {
       <section className="section">
         <div className="container intro">
           <div className="row">
-            <h2 className="intro__heading">Backround</h2>
+            <h2 className="intro__heading">Background</h2>
           </div>
           <div className="row">
             <div className="intro__content">

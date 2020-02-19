@@ -1,0 +1,8 @@
+.btn {
+  padding: 10px 5px;
+  border-radius: 4px;
+
+  &--outline {
+    border: 1px solid $red;
+  }
+}
