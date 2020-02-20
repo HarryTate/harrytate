@@ -48,7 +48,7 @@ export default class Skills extends Component {
   }
   render() {
     return (
-      <section className="section section--dark-blue">
+      <section className="section section--dark-grey">
         <div className="container">
           <h2 className="skills__heading">Skills</h2>
           <ul className="skills">

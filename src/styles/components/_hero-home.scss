@@ -1,7 +1,12 @@
 .hero-home {
-  background: $dark-blue;
-  height: 40vh;
-  min-height: 40vh;
+  background: $blue;
+  height: 60vh;
+
+  @include for-tablet-portrait-up {
+    height: 50vh;
+    min-height: 425px;
+  }
+
   display: flex;
   color: #eee;
   justify-content: center;
@@ -11,10 +16,19 @@
 
   &__heading {
     @include h1;
+    font-size: 3rem;
+    text-align: center;
+
+    @include for-tablet-portrait-up {
+      font-size: 6rem;
+    }
+
     text-transform: uppercase;
   }
 
   &__subtitle {
     font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
   }
 }
