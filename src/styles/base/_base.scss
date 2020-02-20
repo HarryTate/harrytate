@@ -1,0 +1,36 @@
+.section {
+  padding: 60px 0;
+
+  &--dark-blue {
+    background-color: $dark-blue;
+    color: #eee
+  }
+
+  &--cream {
+    background-color: $cream;
+  }
+
+  &--red {
+    background-color: $red;
+    color: #eee;
+  }
+
+  &--sand {
+    background-color: $sand;
+  }
+
+  &--blue {
+    background-color: $blue;
+    color: #eee;
+  }
+
+  &--dark-grey {
+    background-color: $dark-grey;
+    color: #eee;
+  }
+
+  &--heading {
+    @include h2;
+    text-align: center;
+  }
+}

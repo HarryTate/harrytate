@@ -1,0 +1,39 @@
+.page-title {
+  padding: 60px 0;
+
+  &--cream {
+    background-color: $cream;
+    color: #333
+  }
+
+  &--red {
+    background-color: $red;
+    color: #eee;
+  }
+
+  &--blue {
+    background-color: $blue;
+    color: #eee;
+  }
+
+  &--dark-blue {
+    background-color: $dark-blue;
+    color: #eee;
+  }
+
+  &--sand {
+    background-color: $sand;
+    color: #333;
+  }
+
+  &--dark-grey {
+    background-color: $dark-grey;
+    color: #eee
+  }
+
+  &__heading {
+    font-weight: bold;
+    font-size: 2.8rem;
+
+  }
+}

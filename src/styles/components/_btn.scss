@@ -1,0 +1,19 @@
+.btn {
+  padding: 15px;
+  border-radius: 25px;
+
+  &__red {
+    background-color: $red;
+    color: #eee;
+    border: 3px solid $red;
+    transition: ease-in .3s;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: darken($red, 5%);
+      border: 3px solid darken($red, 5%);
+
+    }
+  }
+}

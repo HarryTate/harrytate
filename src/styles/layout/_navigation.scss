@@ -1,0 +1,16 @@
+.nav {
+  flex: 1 1 33%;
+  margin: auto;
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  &__item {
+    a {
+      color: #eee;
+    }
+  }
+}
