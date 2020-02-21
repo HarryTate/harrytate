@@ -1,11 +1,11 @@
 .skills {
   padding: 20px 0;
 
-  @include for-tablet-portrait-up {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  // @include for-tablet-portrait-up {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  // }
 
   &__heading {
     @include h2;
