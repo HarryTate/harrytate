@@ -4,8 +4,11 @@ import Header from "../components/Header"
 import PageTitle from "../components/PageTitle"
 import Footer from "../components/Footer"
 import harry from "../images/Harry.jpg"
+import cmi from "../images/cmi.svg"
+import creativeAsset from "../images/creative-asset.png"
+import das from "../images/das.png"
 
-const about = ({ data }) => {
+const about = () => {
   return (
     <React.Fragment>
       <Header />
@@ -17,23 +20,43 @@ const about = ({ data }) => {
               <img src={harry} alt="Harry" />
             </div>
             <div className="about__text">
+              <h2 className="about__heading">Harry Tate</h2>
               <p>
                 <strong>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati culpa aspernatur, inventore qui quis id porro esse
-                  facilis doloremque blanditiis.
+                  Obcaecati culpa aspernatur,
                 </strong>
               </p>
               <p>
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
                 magnam reprehenderit vero adipisci blanditiis repellendus, odio
                 quaerat similique sit nulla velit fuga dolorum quos ea numquam
-                dolor asperiores alias! Repudiandae similique sint qui hic,
-                culpa ex eligendi fuga eos cumque. Lorem ipsum dolor sit, amet
-                consectetur adipisicing elit. Iure quasi voluptatum voluptatem,
-                magnam odio voluptatibus illum. Eligendi aliquid quam nisi non!
-                Voluptatum, accusamus. Aliquam?
+                dolor asperiores alias! Repudiandae.
               </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="section section--dark-blue">
+        <div className="container">
+          <h2 className="section--heading">Companies I've worked with</h2>
+          <div className="row logo-row">
+            <div className="logo-row__item">
+              <img className="logo-row__img" src={cmi} alt="CMI Logo" />
+            </div>
+            <div className="logo-row__item">
+              <img
+                className="logo-row__img logo-row__img"
+                src={creativeAsset}
+                alt="Creative Asset Logo"
+              />
+            </div>
+            <div className="logo-row__item">
+              <img
+                className="logo-row__img logo-row__img"
+                src={das}
+                alt="Creative Asset Logo"
+              />
             </div>
           </div>
         </div>
