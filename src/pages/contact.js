@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import Header from "../components/Header"
 import harryOG from "../images/opengrah/harry-og.jpg"
+import PageTitle from "../components/PageTitle"
 import Footer from "../components/Footer"
 
 const contact = ({ data }) => {
@@ -30,7 +31,8 @@ const contact = ({ data }) => {
         <title>{`${data.site.siteMetadata.title} | Contact`}</title>
       </Helmet>
       <Header />
-      <p>contact page</p>
+      <PageTitle title="Get in touch" color="dark-grey" />
+
       <Footer />
     </React.Fragment>
   )
