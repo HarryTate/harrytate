@@ -10,7 +10,7 @@ const Cards = () => {
   return (
     <section className="section">
       <div className="container">
-        <h2 className="section--heading text--blue">Projects</h2>
+        <h2 className="section--heading text--blue">Recent Work</h2>
         <div className="cards">
           <Link
             to="/projects/"
@@ -61,7 +61,7 @@ const Cards = () => {
           </Link>
         </div>
         <Link to="/projects/" className="btn btn--outline">
-          View all Work I've done
+          View all work I've done
         </Link>
       </div>
     </section>

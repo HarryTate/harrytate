@@ -36,7 +36,7 @@ export default ({ data }) => (
     <Intro />
     <Skills />
     <Cards />
-    <Layout color="dark-grey" heading="Testimonals">
+    <Layout color="dark-grey" heading="What people say about me">
       <Testimonials
         quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ligula malesuada, semper orci vitae, sollicitudin justo. Cras id nisl a urna luctus aliquam gravida ac nisi. In dignissim lacus at est cursus tincidunt. Cras a aliquet nulla."
         quoteName="Joe Bloggs"
