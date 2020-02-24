@@ -53,7 +53,7 @@
     flex: 0 1 calc(49% - 1em);
   }
 
-  @include for-tablet-landscape-up {
+  @include for-desktop-up {
     flex: 0 1 calc(24% - 1em);
   }
 

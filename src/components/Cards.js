@@ -1,5 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
+
 import "../styles/main.scss"
 import pplBuilding from "../images/ppl-building.jpg"
 import helpingMindsStudent from "../images/helping-minds-student.jpg"
@@ -60,9 +61,14 @@ const Cards = () => {
             </div>
           </Link>
         </div>
-        <Link to="/projects/" className="btn btn--outline">
-          View all work I've done
-        </Link>
+        <div className="text--center mt--2">
+          <Link
+            to="/projects/"
+            className="btn btn__outline btn__outline--dark-blue"
+          >
+            View all work I've done
+          </Link>
+        </div>
       </div>
     </section>
   )
