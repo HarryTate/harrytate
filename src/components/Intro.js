@@ -9,7 +9,7 @@ export default class HeroHome extends Component {
           <div className="intro__content">
             <p className="intro__content-text">
               Hi, I'm Harry and I'm passionate about building responsive, user
-              friendly websites. I've been working as a web developer at
+              friendly websites. I'm currently working as a web developer at
               the&nbsp;
               <a
                 className="text--bold"
