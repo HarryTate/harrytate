@@ -7,7 +7,6 @@ import PageTitle from "../components/PageTitle"
 import Footer from "../components/Footer"
 
 const contact = ({ data }) => {
-  console.log(data)
   return (
     <React.Fragment>
       <Helmet>
