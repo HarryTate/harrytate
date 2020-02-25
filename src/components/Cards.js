@@ -54,7 +54,7 @@ const Cards = () => {
             <div className="card__content">
               <h3 className="card__heading">Chartered Management Institute</h3>
               <p className="card__text">
-                Chartered professional body for management and leadership
+                Chartered professional body for management and leadership.
               </p>
             </div>
           </Link>

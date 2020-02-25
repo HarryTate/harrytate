@@ -46,7 +46,6 @@ const about = ({ data }) => {
               <p>
                 <strong>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Obcaecati culpa aspernatur,
                 </strong>
               </p>
               <p>
