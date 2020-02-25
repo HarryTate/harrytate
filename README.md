@@ -8,5 +8,6 @@
 1.  **Start developing.**
 
 ```
+This is junk in the master that we want to get rid of
 gatsby develop
 ```
