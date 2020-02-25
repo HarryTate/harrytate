@@ -3,9 +3,9 @@
   <a href="https://www.harrytate.co.uk">Harry Tate Portfolio</a>
 </h1>
 
-## 🚀 Quick start
+## Quick start
 
-1.  **Start developing.**
+**Start developing.**
 
 ```
 gatsby develop
