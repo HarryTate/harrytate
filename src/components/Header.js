@@ -6,9 +6,9 @@ export default class Header extends Component {
   render() {
     return (
       <header className="header">
-        <Link to="/" className="header__logo">
-          {"< "}Harry Tate {"/>"}
-        </Link>
+        <div className="header__logo">
+          <Link to="/">{`< Harry Tate />`}</Link>
+        </div>
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item">

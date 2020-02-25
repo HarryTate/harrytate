@@ -1,19 +1,35 @@
 .btn {
-  padding: 15px;
+  padding: 10px 15px;
   border-radius: 25px;
+  transition: ease-in .3s;
 
-  &__red {
+  &__outline {
+    background-color: transparent;
+    border: 3px solid;
+
+    &--dark-blue {
+      border-color: $dark-blue;
+      color: #333;
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $dark-blue;
+        color: #eee;
+      }
+    }
+  }
+
+  &--red {
     background-color: $red;
     color: #eee;
     border: 3px solid $red;
-    transition: ease-in .3s;
 
     &:hover,
     &:active,
     &:focus {
       background-color: darken($red, 5%);
       border: 3px solid darken($red, 5%);
-
     }
   }
 }

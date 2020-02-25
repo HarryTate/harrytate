@@ -1,6 +1,6 @@
 import React from "react"
 
-export default props => {
+function Layout(props) {
   return (
     <section className={`section section--${props.color}`}>
       <div className="container">
@@ -10,3 +10,5 @@ export default props => {
     </section>
   )
 }
+
+export default Layout

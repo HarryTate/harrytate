@@ -1,0 +1,14 @@
+.logo-row {
+  align-items: center;
+  text-align: center;
+  margin-top: 2rem;
+
+  &__item {
+    flex: 1 1 25%;
+  }
+
+  &__img {
+    width: auto;
+    height: 95px;
+  }
+}

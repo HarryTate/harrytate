@@ -9,7 +9,6 @@
 }
 
 .card {
-  background-image: url("https://placeimg.com/600/900");
   margin: 1rem 0;
   border: 1px solid #ccc;
   background-repeat: no-repeat;
@@ -54,7 +53,7 @@
     flex: 0 1 calc(49% - 1em);
   }
 
-  @include for-tablet-landscape-up {
+  @include for-desktop-up {
     flex: 0 1 calc(24% - 1em);
   }
 

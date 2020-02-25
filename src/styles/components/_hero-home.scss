@@ -3,8 +3,8 @@
   height: 60vh;
 
   @include for-tablet-portrait-up {
-    height: 50vh;
-    min-height: 425px;
+    height: 40vh;
+    min-height: 380px;
   }
 
   display: flex;
