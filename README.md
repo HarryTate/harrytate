@@ -3,7 +3,7 @@
   <a href="https://www.harrytate.co.uk">Harry Tate Portfolio</a>
 </h1>
 
-## Quick start
+## Harry Tate Portfolio Website
 
 **Start developing.**
 
