@@ -11,7 +11,11 @@ const HeroHome = props => (
         Find out more about me
       </Link>
     </section>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 140">
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 1440 140"
+      preserveAspectRatio="xMidYMid none"
+    >
       <path
         fill="#3284e2"
         fillOpacity="1"

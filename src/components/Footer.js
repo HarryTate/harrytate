@@ -11,7 +11,7 @@ const Footer = () => {
             <p className="footer-content__text">
               I'm an incredibly enthuaistic Web developer who loves making
               websire and web apps. I'm currently working as a Front-End
-              Developer at the CHartered Management Institute.
+              Developer at the Chartered Management Institute.
             </p>
           </div>
           <div className="footer-content">
