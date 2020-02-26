@@ -7,8 +7,7 @@
 
 **Start developing.**
 
-gatsby develop
-
 ```
+gatsby develop
 
 ```

@@ -21,6 +21,15 @@
   @include for-tablet-landscape-up {
     display: flex;
   }
+
+  &--space-evenly {
+    justify-content: space-evenly;
+
+  }
+
+  &--flex-wrap {
+    flex-wrap: wrap;
+  }
 }
 
 .flex {
