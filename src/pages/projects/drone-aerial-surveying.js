@@ -4,7 +4,7 @@ import PageTitle from "../../components/PageTitle"
 import ProjectDetails from "../../components/ProjectDetails"
 import Footer from "../../components/Footer"
 
-const PPLArchitects = () => (
+const DroneAerialSurveying = () => (
   <React.Fragment>
     <Header />
     <PageTitle color="dark-grey" title="Drone Aerial Surveying" />
@@ -13,4 +13,4 @@ const PPLArchitects = () => (
   </React.Fragment>
 )
 
-export default PPLArchitects
+export default DroneAerialSurveying
