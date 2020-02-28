@@ -3,6 +3,9 @@
 @import "./abstacts/functions";
 @import "./abstacts/mixins";
 
+//Vendors 
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+
 // Base
 @import "./base/base";
 @import "./base/reset";
