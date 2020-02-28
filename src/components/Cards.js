@@ -1,6 +1,5 @@
 import React from "react"
 import { Link } from "gatsby"
-
 import "../styles/main.scss"
 import pplBuilding from "../images/ppl-building.jpg"
 import helpingMindsStudent from "../images/helping-minds-student.jpg"

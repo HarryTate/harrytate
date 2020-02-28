@@ -1,10 +1,10 @@
 import React from "react"
 
-export default function PageTitle(props) {
+export default function PageTitle({ color, title }) {
   return (
-    <section className={`page-title page-title--${props.color}`}>
+    <section className={`page-title page-title--${color}`}>
       <div className="container">
-        <h1 className="page-title__heading">{props.title}</h1>
+        <h1 className="page-title__heading">{title}</h1>
       </div>
     </section>
   )

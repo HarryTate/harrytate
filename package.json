@@ -27,7 +27,8 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "react-image-gallery": "^1.0.6"
   },
   "repository": {
     "type": "git",
