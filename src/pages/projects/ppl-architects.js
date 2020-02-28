@@ -8,7 +8,7 @@ const PPLArchitects = () => (
   <React.Fragment>
     <Header />
     <PageTitle color="dark-grey" title="PPL Architects" />
-    <ProjectDetails title="PPL Architects" />
+    <ProjectDetails />
     <Footer />
   </React.Fragment>
 )
