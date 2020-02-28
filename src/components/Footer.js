@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="container">
-        <div className="row row--space-evenly">
+        <div className="row row--space-between">
           <div className="footer-content footer-content--main-col">
             <h3 className="footer-content__heading">About Harry</h3>
             <p className="footer-content__text">
