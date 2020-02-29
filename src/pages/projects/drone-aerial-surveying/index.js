@@ -8,7 +8,7 @@ const DroneAerialSurveying = () => (
   <React.Fragment>
     <Header />
     <PageTitle color="dark-grey" title="Drone Aerial Surveying" />
-    {/* <ProjectDetails /> */}
+    <ProjectDetails />
     <Footer />
   </React.Fragment>
 )
