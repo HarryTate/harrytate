@@ -1,8 +1,8 @@
 import React from "react"
-import Header from "../../components/Header"
-import PageTitle from "../../components/PageTitle"
-import ProjectDetails from "../../components/ProjectDetails"
-import Footer from "../../components/Footer"
+import Header from "../../../components/Header"
+import PageTitle from "../../../components/PageTitle"
+import ProjectDetails from "../../../components/ProjectDetails"
+import Footer from "../../../components/Footer"
 
 const PPLArchitects = () => (
   <React.Fragment>

@@ -13,7 +13,7 @@ const Cards = () => {
         <h2 className="section--heading text--blue">Recent Work</h2>
         <div className="cards">
           <Link
-            to="/projects/"
+            to="/projects/ppl-architects/"
             className="card"
             style={{ backgroundImage: `url(${pplBuilding})` }}
           >
@@ -23,7 +23,7 @@ const Cards = () => {
             </div>
           </Link>
           <Link
-            to="/projects/"
+            to="/projects/helping-minds/"
             className="card"
             style={{ backgroundImage: `url(${helpingMindsStudent})` }}
           >
@@ -36,7 +36,7 @@ const Cards = () => {
             </div>
           </Link>
           <Link
-            to="/projects/"
+            to="/projects/drone-aerial-surveying/"
             className="card"
             style={{ backgroundImage: `url(${dasController})` }}
           >
@@ -46,7 +46,7 @@ const Cards = () => {
             </div>
           </Link>
           <Link
-            to="/projects/"
+            to="/projects/cmi/"
             className="card"
             style={{ backgroundImage: `url(${cmiBusinessMan})` }}
           >
