@@ -22,9 +22,12 @@
     display: flex;
   }
 
-  &--space-betwwen {
+  &--space-between {
     justify-content: space-between;
+  }
 
+  &--space-around {
+    justify-content: space-around;
   }
 
   &--flex-wrap {

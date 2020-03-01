@@ -4,7 +4,9 @@ import { graphql } from "gatsby"
 import Header from "../../components/Header"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
+import ProjectBrowse from "../../components/ProjectBrowse"
 import harryOG from "../../images/opengrah/harry-og.jpg"
+import pplShowcase from "../../images/showcase/ppl-showcase.png"
 
 const projects = ({ data }) => {
   return (
@@ -33,7 +35,33 @@ const projects = ({ data }) => {
         <title>{`${data.site.siteMetadata.title}`}</title>
       </Helmet>
       <Header />
-      <PageTitle title="Projects I've worked on" color="dark-blue" />
+      <PageTitle title="Projects I've worked on" color="dark-grey" />
+      <div className="section">
+        <div className="container">
+          <div className="row row--space-around row--flex-wrap">
+            <ProjectBrowse
+              title="PPL Architecture"
+              link="/projects/ppl-architects/"
+              img={pplShowcase}
+            />
+            <ProjectBrowse
+              title="Helping Minds"
+              link="/projects/helping-minds/"
+              img="https://placeimg.com/800/800/any"
+            />
+            <ProjectBrowse
+              title="Drone Aerial Surveying"
+              link="/projects/drone-aerial-surveying/"
+              img="https://placeimg.com/800/800/any"
+            />
+            <ProjectBrowse
+              title="Chartered Management Institute"
+              link="/projects/cmi/"
+              img="https://placeimg.com/800/800/any"
+            />
+          </div>
+        </div>
+      </div>
       <Footer />
     </React.Fragment>
   )
