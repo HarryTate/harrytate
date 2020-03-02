@@ -8,7 +8,7 @@ const HelpingMinds = () => (
   <React.Fragment>
     <Header />
     <PageTitle color="dark-grey" title="Helping Minds" />
-    <ProjectDetails />
+    {/* <ProjectDetails /> */}
     <Footer />
   </React.Fragment>
 )
