@@ -1,0 +1,13 @@
+.image-gallery-left-nav .image-gallery-svg,
+.image-gallery-right-nav .image-gallery-svg {
+  height: 80px;
+  width: 50px;
+  -webkit-filter: drop-shadow(0) !important;
+  filter: drop-shadow(0) !important;
+  color: $blue;
+}
+
+.image-gallery-icon {
+  filter: none !important;
+  -webkit-filter: none !important;
+}

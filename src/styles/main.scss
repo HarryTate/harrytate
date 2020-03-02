@@ -12,6 +12,7 @@
 @import "./base/typography";
 
 // Components
+@import "./components/image-gallery";
 @import "./components/btn";
 @import "./components/page-title";
 @import "./components/hero-home";
@@ -21,7 +22,8 @@
 @import "./components/cards";
 @import "./components/testimonials";
 @import "./components/logo-row";
-
+@import "./components/project-browse";
+@import "./components/project-info";
 
 // Layout
 @import "./layout/header";

@@ -1,0 +1,30 @@
+.project-info {
+  padding: 20px;
+  background-color: #f5f6fa;
+
+  &__title {
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+
+  &__data {
+    @include for-tablet-portrait-up {
+      display: flex;
+    }
+
+    flex-wrap: nowrap;
+  }
+
+  &__data-info {
+    flex: 1 1 auto;
+
+    @include for-tablet-portrait-up {
+      text-align: right;
+    }
+  }
+
+  &__data-title {
+    flex: 1 1 auto;
+    font-weight: bold;
+  }
+}
