@@ -9,6 +9,7 @@ module.exports = {
     title: `Harry Tate | Front-End Web Developer`,
   },
   plugins: [
+    `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
