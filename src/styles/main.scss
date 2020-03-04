@@ -3,7 +3,7 @@
 @import "./abstacts/functions";
 @import "./abstacts/mixins";
 
-//Vendors 
+//Vendors
 @import "~react-image-gallery/styles/scss/image-gallery.scss";
 
 // Base
@@ -24,6 +24,8 @@
 @import "./components/logo-row";
 @import "./components/project-browse";
 @import "./components/project-info";
+@import "./components/callout";
+@import "./components/contact-form";
 
 // Layout
 @import "./layout/header";

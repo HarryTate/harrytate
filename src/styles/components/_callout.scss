@@ -1,0 +1,8 @@
+.callout {
+  text-align: center;
+
+  &__heading {
+    @include h2;
+    margin-bottom: 1rem;
+  }
+}

@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
-import ProjectDetails from "../../../components/ProjectDetails"
+// import ProjectDetails from "../../../components/ProjectDetails"
 import Footer from "../../../components/Footer"
 
 const DroneAerialSurveying = () => (

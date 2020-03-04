@@ -7,7 +7,7 @@ import Intro from "../components/Intro"
 import Skills from "../components/Skills"
 import Cards from "../components/Cards"
 import Testimonials from "../components/Testimonials"
-import Layout from "../components/layout/Layout"
+import Callout from "../components/Callout"
 import Footer from "../components/Footer"
 import "../styles/main.scss"
 import harryOG from "../images/opengrah/harry-og.jpg"
@@ -36,17 +36,17 @@ export default ({ data }) => (
     <Intro />
     <Skills />
     <Cards />
-    <Layout color="dark-grey" heading="What people say about me">
-      <Testimonials
-        quote="Excellent web developer, hard working and very knowledgeable. Made me a fantastic website for an architectural practice."
-        quoteName="Nadeem Hanna"
-      />
-      <Testimonials
-        quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non ligula malesuada, semper orci vitae, sollicitudin justo."
-        quoteName="Jane Bloggs"
-      />
-    </Layout>
-    <h1>TODO: CTA to contact pages to go here</h1>
+    <Testimonials
+      quote="Excellent web developer, hard working and very knowledgeable. Made me a fantastic website for an architectural practice."
+      quoteName="Nadeem Hanna"
+    />
+    <Callout
+      color="dark-blue"
+      text="Want to know more?"
+      buttonText="Get in touch"
+      buttonLink="contact"
+      buttonColor="red"
+    />
     <Footer />
   </React.Fragment>
 )

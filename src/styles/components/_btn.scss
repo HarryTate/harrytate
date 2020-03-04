@@ -2,6 +2,13 @@
   padding: 10px 15px;
   border-radius: 25px;
   transition: ease-in .3s;
+  display: inline-block;
+
+  &--lrg {
+    padding: 20px 35px;
+    font-size: 1.2rem;
+    border-radius: 55px;
+  }
 
   &__outline {
     background-color: transparent;
@@ -18,7 +25,32 @@
         color: #eee;
       }
     }
+
+    &--red {
+      border-color: $red;
+      color: #eee;
+
+      &:hover,
+      &:active,
+      &:focus {
+        background-color: $red;
+        color: #eee;
+      }
+    }
   }
+
+  &--dark-blue {
+    border-color: $dark-blue;
+    color: #eee;
+
+    &:hover,
+    &:active,
+    &:focus {
+      background-color: $dark-blue;
+      color: #eee;
+    }
+  }
+
 
   &--red {
     background-color: $red;
