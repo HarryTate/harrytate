@@ -6,7 +6,9 @@
 
   &__quote {
     font-style: italic;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 0 65px;
     position: relative;
   }
 
@@ -21,25 +23,9 @@
     }
   }
 
-  &__quote-mark--before::before {
-    vertical-align: super;
-    content: '"';
-    top: -7px;
-    left: -18px;
-    position: absolute;
-  }
-
-  &__quote-mark--after::after {
-    vertical-align: baseline;
-    content: '"';
-    position: relative;
-    top: -0.3rem;
-
-  }
-
   &__name {
     font-weight: bold;
     display: block;
-    margin-top: .5rem;
+    margin-top: 1rem;
   }
 }

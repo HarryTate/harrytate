@@ -5,6 +5,7 @@ import Header from "../../components/Header"
 import harryOG from "../../images/opengrah/harry-og.jpg"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
+import ContactForm from "../../components/ContactForm"
 
 const contact = ({ data }) => {
   return (
@@ -31,7 +32,11 @@ const contact = ({ data }) => {
       </Helmet>
       <Header />
       <PageTitle title="Get in touch" color="dark-grey" />
-
+      <section className="section">
+        <div className="container">
+          <ContactForm />
+        </div>
+      </section>
       <Footer />
     </React.Fragment>
   )
