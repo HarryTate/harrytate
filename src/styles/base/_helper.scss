@@ -14,6 +14,10 @@
   margin-top: 2rem;
 }
 
+.mr--half {
+  margin-right: .5rem;
+}
+
 .mb {
   &--1 {
     margin-bottom: 1rem;
@@ -24,7 +28,7 @@
   }
 }
 
-.mb--2 .sr-only {
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -33,4 +37,14 @@
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+@include for-tablet-portrait-up {
+  .order-tablet-portrait-up-first {
+    order: 1;
+  }
+
+  .order-tablet-portrait-up-second {
+    order: 2;
+  }
 }
