@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet"
 import Header from "../components/Header"
 import PageTitle from "../components/PageTitle"
 import Footer from "../components/Footer"
+import Callout from "../components/Callout"
 import harry from "../images/Harry.jpg"
 import cmi from "../images/cmi.svg"
 import creativeAsset from "../images/creative-asset.png"
@@ -82,6 +83,13 @@ const about = ({ data }) => {
           </div>
         </div>
       </section>
+      <Callout
+        color="red"
+        text="Want to see some of my work?"
+        buttonText="View Projects"
+        buttonLink="projects"
+        buttonColor="dark-blue"
+      />
       <Footer />
     </React.Fragment>
   )

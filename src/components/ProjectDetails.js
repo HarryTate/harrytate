@@ -55,7 +55,7 @@ const ProjectDetails = ({
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                View site
+                View Site
               </a>
               <a
                 href={repoLink}

@@ -6,6 +6,7 @@ import harryOG from "../../images/opengrah/harry-og.jpg"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
 import ContactForm from "../../components/ContactForm"
+import ContactDetails from "../../components/ContactDetails"
 
 const contact = ({ data }) => {
   return (
@@ -31,10 +32,17 @@ const contact = ({ data }) => {
         <title>{`${data.site.siteMetadata.title} | Contact`}</title>
       </Helmet>
       <Header />
-      <PageTitle title="Get in touch" color="dark-grey" />
+      <PageTitle title="Contact" color="dark-grey" />
       <section className="section">
         <div className="container">
-          <ContactForm />
+          <div className="row">
+            <div className="two-thirds">
+              <ContactForm />
+            </div>
+            <div className="one-third dark-grey-bg">
+              <ContactDetails />
+            </div>
+          </div>
         </div>
       </section>
       <Footer />

@@ -1,0 +1,19 @@
+.contact-details {
+  padding: 2rem;
+  text-align: center;
+
+  &__heading {
+    @include h2;
+    margin-bottom: 2rem;
+  }
+
+  &__subheading {
+    font-weight: bold;
+  }
+
+  &__item {
+    margin-bottom: 1.2rem;
+    ;
+  }
+
+}
