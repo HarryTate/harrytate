@@ -1,4 +1,7 @@
 import React from "react"
+import codepen from "../images/social-icons/codepen.svg"
+import github from "../images/social-icons/github.svg"
+import linkedin from "../images/social-icons/linkedin.svg"
 
 const ContactDetails = () => {
   return (
@@ -13,16 +16,35 @@ const ContactDetails = () => {
       <div className="contact-details__item">
         <p className="contact-details__subheading">Follow</p>
         <ul className="contact-details__details">
-          <li>
-            <a href="https://github.com/HarryTate">Github</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/harry-tate-0576a814b/">
-              Linkedin
+          <li className="contact-details__list-item">
+            <a href="https://github.com/HarryTate">
+              <span className="sr-only">Github</span>
+              <img
+                src={github}
+                alt="Codepen"
+                className="contact-details__icon"
+              />
             </a>
           </li>
-          <li>
-            <a href="https://codepen.io/harrytate">Codepen</a>
+          <li className="contact-details__list-item">
+            <a href="https://www.linkedin.com/in/harry-tate-0576a814b/">
+              <span className="sr-only">Linkedin</span>
+              <img
+                src={linkedin}
+                alt="Codepen"
+                className="contact-details__icon"
+              />
+            </a>
+          </li>
+          <li className="contact-details__list-item">
+            <a href="https://codepen.io/harrytate">
+              <span className="sr-only">Codepen</span>
+              <img
+                src={codepen}
+                alt="Codepen"
+                className="contact-details__icon"
+              />
+            </a>
           </li>
         </ul>
       </div>
