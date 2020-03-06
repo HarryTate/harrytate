@@ -33,7 +33,7 @@ const HelpingMinds = () => {
       <PageTitle color="dark-grey" title="Helping Minds" />
       <ProjectDetails
         images={images}
-        name={"PPL Architects"}
+        name={"Helping Minds"}
         client={"Student from Nottingham Trent University"}
         techUsed={[
           "HTML",
