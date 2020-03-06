@@ -7,6 +7,7 @@ import Footer from "../../components/Footer"
 import ProjectBrowse from "../../components/ProjectBrowse"
 import harryOG from "../../images/opengrah/harry-og.jpg"
 import pplShowcase from "../../images/showcase/ppl-showcase.png"
+import helpingMindsShowcase from "../../images/showcase/helping-minds-showcase.png"
 
 const projects = ({ data }) => {
   return (
@@ -47,7 +48,7 @@ const projects = ({ data }) => {
             <ProjectBrowse
               title="Helping Minds"
               link="/projects/helping-minds/"
-              img="https://placeimg.com/800/800/any"
+              img={helpingMindsShowcase}
             />
             <ProjectBrowse
               title="Drone Aerial Surveying"
