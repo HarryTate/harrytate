@@ -21,7 +21,7 @@ const ContactDetails = () => {
               <span className="sr-only">Github</span>
               <img
                 src={github}
-                alt="Codepen"
+                alt="Github"
                 className="contact-details__icon"
               />
             </a>
@@ -31,7 +31,7 @@ const ContactDetails = () => {
               <span className="sr-only">Linkedin</span>
               <img
                 src={linkedin}
-                alt="Codepen"
+                alt="Linkedin"
                 className="contact-details__icon"
               />
             </a>
