@@ -4,6 +4,7 @@ import { graphql } from "gatsby"
 import Header from "../../components/Header"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
+import Callout from "../../components/Callout"
 import ProjectBrowse from "../../components/ProjectBrowse"
 import harryOG from "../../images/opengrah/harry-og.jpg"
 import pplShowcase from "../../images/showcase/ppl-showcase.png"
@@ -63,6 +64,13 @@ const projects = ({ data }) => {
           </div>
         </div>
       </div>
+      <Callout
+        color="dark-blue"
+        text="Like what you see?"
+        buttonText="Get in touch"
+        buttonLink="contact"
+        buttonColor="red"
+      />
       <Footer />
     </React.Fragment>
   )

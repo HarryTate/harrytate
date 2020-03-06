@@ -2,14 +2,13 @@ import React from "react"
 
 const ContactForm = () => {
   return (
-    <div className="contact">
-      <h2 className="contact-form__heading">Drop me a message!</h2>
+    <div className="contact-form">
+      <h2 className="contact-form__heading">Get in touch</h2>
       <form
         name="contact"
         method="post"
         netlify-honeypot="bot-field"
         data-netlify="true"
-        className="contact-form"
       >
         <input type="hidden" name="contact" value="contact" />
         <input type="hidden" name="bot-field" />

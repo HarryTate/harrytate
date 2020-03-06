@@ -38,7 +38,7 @@ const HelpingMinds = () => {
         techUsed={[
           "HTML",
           "CSS",
-          "Javascript",
+          "JavaScript",
           "jQuery",
           "Netlify",
           "Bootstrap",
