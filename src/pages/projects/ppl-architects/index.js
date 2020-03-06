@@ -43,7 +43,7 @@ const PPLArchitects = props => {
         techUsed={[
           "HTML",
           "SCSS",
-          "Javascript",
+          "JavaScript",
           "Parcel",
           "Netlify",
           "Bootstrap",
