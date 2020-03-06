@@ -5,7 +5,9 @@ import Footer from "../components/Footer"
 const pageNotFound = () => (
   <React.Fragment>
     <Header />
-    <h1>Ooops: This is the 404</h1>
+    <div className="section">
+      <h1>Ooops... This is the 404... something went wrong</h1>
+    </div>
     <Footer />
   </React.Fragment>
 )
