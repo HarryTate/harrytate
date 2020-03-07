@@ -54,7 +54,7 @@ const ProjectDetails = ({
                 <React.Fragment>
                   <h2 className="project-content__title">Featured Work</h2>
                   <p className="mb--1">
-                    Below is some of the work I've completed on the site:
+                    Below is some of the work I've completed:
                   </p>
                   {featuredWork.map(work => (
                     <a className="btn btn--red mr--half" href={work.link}>

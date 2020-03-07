@@ -23,17 +23,20 @@ const cmi = () => {
   return (
     <React.Fragment>
       <Header />
-      <PageTitle color="dark-grey" title="Helping Minds" />
+      <PageTitle
+        color="dark-grey"
+        title="Chartered Management Institue (CMI)"
+      />
       <ProjectDetails
         images={images}
-        name={"CMI"}
+        name={"Chartered Management Institue CMI"}
         client={"Chartered Management Institute"}
         techUsed={["HTML", "CSS", "JavaScript", "jQuery", "Sitecore CMS"]}
         date={"March 2018 - Present"}
         brief={
           <p className="project-content__text">
             I started working at the Chartered Management Institute as a Junior
-            Front-End Developer in 2018. My role is too build new pages on the
+            Front-End Developer in 2018. My role is to build new pages on the
             site and add new functionality for people around the business. These
             usually include campaign, event and information pages.
           </p>
