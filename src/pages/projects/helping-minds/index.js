@@ -50,7 +50,7 @@ const HelpingMinds = () => {
             website for their Final Year project. They were tasked with coming
             up with a product that students could use. I came up with a design
             and advised on the layout of the site. From there I created a mobile
-            responsive, one page website with sections on signs and symptoms,
+            responsive, one page website with details on signs and symptoms,
             resources, contact, mental health and students, top tips and
             introduction.
           </p>
