@@ -45,26 +45,30 @@ const ProjectDetails = ({
               </dl>
             </div>
             <div className="project-content">
-              <h2 className="project-content__title">Project Brief</h2>
+              <h2 className="project-content__title">Project Details</h2>
               {brief}
               <h2 className="project-content__title">Requirements</h2>
               {requirements}
-              <a
-                href={siteLink}
-                className="btn btn__outline btn__outline--dark-blue mr--half"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Site
-              </a>
-              <a
-                href={repoLink}
-                className="btn btn__outline btn__outline--dark-blue"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                View Code
-              </a>
+              {siteLink ? (
+                <a
+                  href={siteLink}
+                  className="btn btn__outline btn__outline--dark-blue mr--half"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Visit Site
+                </a>
+              ) : null}
+              {repoLink ? (
+                <a
+                  href={repoLink}
+                  className="btn btn__outline btn__outline--dark-blue"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View Code
+                </a>
+              ) : null}
             </div>
           </div>
         </div>
