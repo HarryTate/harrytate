@@ -30,8 +30,8 @@ const Cards = () => {
             <div className="card__content">
               <h3 className="card__heading">Helping Minds</h3>
               <p className="card__text">
-                A website to provide support for people struggling with their
-                mental health.
+                A support network for people struggling with their mental
+                health.
               </p>
             </div>
           </Link>
