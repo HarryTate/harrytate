@@ -9,6 +9,7 @@ const ProjectDetails = ({
   brief,
   date,
   requirements,
+  featuredWork,
   siteLink,
   repoLink,
 }) => {
@@ -49,6 +50,19 @@ const ProjectDetails = ({
               {brief}
               <h2 className="project-content__title">Requirements</h2>
               {requirements}
+              {featuredWork ? (
+                <React.Fragment>
+                  <h2 className="project-content__title">Featured Work</h2>
+                  <p className="mb--1">
+                    Below is some of the work I've completed on the site:
+                  </p>
+                  {featuredWork.map(work => (
+                    <a className="btn btn--red mr--half" href={work.link}>
+                      {work.title}
+                    </a>
+                  ))}
+                </React.Fragment>
+              ) : null}
               {siteLink ? (
                 <a
                   href={siteLink}
