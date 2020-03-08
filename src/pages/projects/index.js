@@ -10,6 +10,7 @@ import harryOG from "../../images/opengrah/harry-og.jpg"
 import pplShowcase from "../../images/showcase/ppl-showcase.png"
 import helpingMindsShowcase from "../../images/showcase/helping-minds-showcase.png"
 import dasShowcase from "../../images/showcase/das-showcase.png"
+import cmiShowcase from "../../images/showcase/cmi-showcase.png"
 
 const projects = ({ data }) => {
   return (
@@ -60,7 +61,7 @@ const projects = ({ data }) => {
             <ProjectBrowse
               title="Chartered Management Institute"
               link="/projects/cmi/"
-              img="https://placeimg.com/800/800/any"
+              img={cmiShowcase}
             />
           </div>
         </div>
