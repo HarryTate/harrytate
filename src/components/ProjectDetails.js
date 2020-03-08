@@ -56,8 +56,12 @@ const ProjectDetails = ({
                   <p className="mb--1">
                     Below is some of the work I've completed:
                   </p>
-                  {featuredWork.map(work => (
-                    <a className="btn btn--red mr--half" href={work.link}>
+                  {featuredWork.map((work, index) => (
+                    <a
+                      key={index}
+                      className="btn btn--red mr--half mb--half"
+                      href={work.link}
+                    >
                       {work.title}
                     </a>
                   ))}

@@ -3,20 +3,23 @@ import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
 import Footer from "../../../components/Footer"
+import cmiFutureLeaders from "../../../images/projects/CMI/Future-Leaders-full.png"
+import cmiIWD from "../../../images/projects/CMI/IWD-full.png"
+import cmiManagement40 from "../../../images/projects/CMI/management-40-full.png"
 
 const cmi = () => {
   const images = [
     {
-      original: "https://placeimg.com/640/480/any",
-      thumbnail: "https://placeimg.com/640/480/any",
+      original: cmiFutureLeaders,
+      thumbnail: cmiFutureLeaders,
     },
     {
-      original: "https://placeimg.com/640/480/any",
-      thumbnail: "https://placeimg.com/640/480/any",
+      original: cmiIWD,
+      thumbnail: cmiIWD,
     },
     {
-      original: "https://placeimg.com/640/480/any",
-      thumbnail: "https://placeimg.com/640/480/any",
+      original: cmiManagement40,
+      thumbnail: cmiManagement40,
     },
   ]
 
@@ -57,9 +60,20 @@ const cmi = () => {
           </ul>
         }
         featuredWork={[
-          { title: "Item 1", link: "https://www.managers.org.uk/campaigns" },
-          { title: "Item 2", link: "https://www.managers.org.uk/campaigns" },
-          { title: "Item 3", link: "https://www.managers.org.uk/campaigns" },
+          {
+            title: "Future Leaders",
+            link:
+              "https://www.managers.org.uk/individuals/become-a-member/future-leaders",
+          },
+          {
+            title: "International Women's Day",
+            link:
+              "https://www.managers.org.uk/campaigns/international-womens-day",
+          },
+          {
+            title: "Management 4.0",
+            link: "https://www.managers.org.uk/campaigns/management-40/",
+          },
         ]}
       />
       <Footer />
