@@ -46,14 +46,19 @@ const about = ({ data }) => {
               <h2 className="about__heading">Harry Tate</h2>
               <p>
                 <strong>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Hello! I'm Harry, a Peterborough based Web developer who is
+                  passionate about all things web related.
                 </strong>
               </p>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut
-                magnam reprehenderit vero adipisci blanditiis repellendus, odio
-                quaerat similique sit nulla velit fuga dolorum quos ea numquam
-                dolor asperiores alias! Repudiandae.
+                After completing a short internship at a digital agency in
+                Nottingham I then landed my first permanent Web Developer job at
+                the Chartered Management Institute. I enjoy writing in languages
+                such as HTML, CSS, Javascript and jQuery and spend my time
+                outside of work learning PHP, React and Gatsby (what I built
+                using this site). Outside of work I enjoy going to the gym and
+                have recently taken up running hoping to one day complete a 10k
+                charity event.
               </p>
             </div>
           </div>
