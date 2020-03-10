@@ -28,18 +28,6 @@ export default function Testimonials(props) {
           </Slider>
         </div>
       </section>
-      {/* <section className="section section--dark-grey">
-        <div className="container">
-          <div className="testimonials">
-            <blockquote className="testimonials__quote">
-              <sup className="testimonials__quote-mark testimonials__quote-mark--before"></sup>
-              {props.quote}
-              <sub className="testimonials__quote-mark testimonials__quote-mark--after"></sub>
-              <cite className="testimonials__name">{props.quoteName}</cite>
-            </blockquote>
-          </div>
-        </div>
-      </section> */}
     </React.Fragment>
   )
 }

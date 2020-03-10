@@ -19,14 +19,6 @@ export default ({ data }) => {
         "Excellent web developer, hard working and very knowledgeable. Made me a fantastic website for an architectural practice.",
       quoteName: "Nadeem Hanna",
     },
-    {
-      quote: "string",
-      quoteName: "strong",
-    },
-    {
-      quote: "string",
-      quoteName: "strong",
-    },
   ]
   return (
     <React.Fragment>
