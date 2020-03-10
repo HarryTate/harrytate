@@ -48,11 +48,11 @@ const HelpingMinds = () => {
           <p className="project-content__text">
             I was asked by a student at Nottingham Trent University to build a
             website for their Final Year project. They were tasked with coming
-            up with a product that students could use. I came up with a design
-            and advised on the layout of the site. From there I created a mobile
-            responsive, one page website with details on signs and symptoms,
-            resources, contact, mental health and students, top tips and
-            introduction.
+            up with a product that students who were struggling with mental
+            health could use. I came up with a design and advised on the layout
+            of the site. From there I created a mobile responsive, one page
+            website with information on signs and symptoms, resources, contact,
+            mental health and students, top tips and introduction.
           </p>
         }
         requirements={

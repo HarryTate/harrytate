@@ -56,7 +56,7 @@ const PPLArchitects = props => {
             job was to come up with a layout and design for the website and
             deliver it in a tight deadline. Due to the short timeline, I used
             the bootstrap framework for rapid development, parcel to bundle the
-            project and Netlify for a effortless deployment.
+            project and Netlify for fast deployment.
           </p>
         }
         requirements={
