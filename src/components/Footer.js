@@ -10,7 +10,7 @@ const Footer = () => {
             <h3 className="footer-content__heading">About Harry</h3>
             <p className="footer-content__text">
               I'm an incredibly enthusiastic Web developer who loves building
-              websitses. I'm currently working as a Front-End Developer at the
+              websites. I'm currently working as a Front-End Developer at the
               Chartered Management Institute.
             </p>
           </div>
