@@ -10,7 +10,7 @@ import Testimonials from "../components/Testimonials"
 import Callout from "../components/Callout"
 import Footer from "../components/Footer"
 import "../styles/main.scss"
-import harryOG from "../images/opengrah/harry-og.jpg"
+import harryOG from "../images/opengraph/harry-og.jpg"
 
 export default ({ data }) => {
   const quotes = [

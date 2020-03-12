@@ -9,7 +9,7 @@ import harry from "../images/Harry.jpg"
 import cmi from "../images/cmi.svg"
 import creativeAsset from "../images/creative-asset.png"
 import das from "../images/das.png"
-import harryOG from "../images/opengrah/harry-og.jpg"
+import harryOG from "../images/opengraph/harry-og.jpg"
 
 const about = ({ data }) => {
   return (
