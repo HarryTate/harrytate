@@ -32,6 +32,9 @@ export const SEO = ({
             <meta property="og:image" content={image} />
             <meta name="title" content={data} />
             <meta name="description" content={`${description}`} />
+            <meta name="twitter:card" content="summary_large_image" />
+            <meta name="twitter:site" content="https://www.harrytate.co.uk" />
+            <meta name="twitter:creator" content="@HarryJTate" />
             <meta name="robots" content={`${index}, ${follow}`} />
             <title>{`${data.site.siteMetadata.title} | ${title}`}</title>
           </Helmet>
