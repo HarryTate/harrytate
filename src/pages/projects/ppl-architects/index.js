@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql } from "gatsby"
 import SEO from "../../../components/SEO"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
@@ -11,7 +10,7 @@ import PPLHome from "../../../images/projects/PPL/home-full.png"
 import PPLContact from "../../../images/projects/PPL/contact-full.png"
 import PPLServices from "../../../images/projects/PPL/services-full.png"
 import harryOG from "../../../images/opengraph/harry-og.jpg"
-const PPLArchitects = ({ data }) => {
+const PPLArchitects = () => {
   const images = [
     {
       original: PPLMac,
@@ -34,11 +33,9 @@ const PPLArchitects = ({ data }) => {
       thumbnail: PPLContact,
     },
   ]
-  console.log(data)
   return (
     <React.Fragment>
       <SEO
-        data={data.site.siteMetadata.title}
         title="PPL Architects"
         description="PPL Architects is a webiste built by Front End Developer Harry Tate. PPL Architects is a fictional Architecture practice that was completed for a University project by students at the University of Manchester"
         image={harryOG}
@@ -84,13 +81,5 @@ const PPLArchitects = ({ data }) => {
     </React.Fragment>
   )
 }
-export const query = graphql`
-  query PPLQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
+
 export default PPLArchitects

@@ -1,8 +1,8 @@
 import React from "react"
+import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
 export const SEO = ({
-  data,
   title,
   description,
   image,
@@ -10,16 +10,34 @@ export const SEO = ({
   index = true,
 }) => {
   return (
-    <Helmet>
-      <meta charSet="utf-8" />
-      <meta property="og:title" content={`${data} | ${title}`} />
-      <meta property="og:description" content={`${description}`} />
-      <meta property="og:image" content={image} />
-      <meta name="title" content={data} />
-      <meta name="description" content={`${description}`} />
-      <meta name="robots" content={`${index}, ${follow}`} />
-      <title>{`${data} | ${title}`}</title>
-    </Helmet>
+    <React.Fragment>
+      <StaticQuery
+        query={graphql`
+          query MetaData {
+            site {
+              siteMetadata {
+                title
+              }
+            }
+          }
+        `}
+        render={data => (
+          <Helmet>
+            <meta charSet="utf-8" />
+            <meta
+              property="og:title"
+              content={`${data.site.siteMetadata.title} | ${title}`}
+            />
+            <meta property="og:description" content={`${description}`} />
+            <meta property="og:image" content={image} />
+            <meta name="title" content={data} />
+            <meta name="description" content={`${description}`} />
+            <meta name="robots" content={`${index}, ${follow}`} />
+            <title>{`${data.site.siteMetadata.title} | ${title}`}</title>
+          </Helmet>
+        )}
+      />
+    </React.Fragment>
   )
 }
 
