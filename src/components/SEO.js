@@ -1,12 +1,26 @@
 import React from "react"
+import { Helmet } from "react-helmet"
 
-export const SEO = () => {
+export const SEO = ({
+  data,
+  title,
+  description,
+  image,
+  follow = true,
+  index = true,
+}) => {
   return (
-    <div>
-      <h1>
-        TODO: This will be a compoentent that contains react Helmet. Pages will
-        then use this component for there seo meta data
-      </h1>
-    </div>
+    <Helmet>
+      <meta charSet="utf-8" />
+      <meta property="og:title" content={`${data} | ${title}`} />
+      <meta property="og:description" content={`${description}`} />
+      <meta property="og:image" content={image} />
+      <meta name="title" content={data} />
+      <meta name="description" content={`${description}`} />
+      <meta name="robots" content={`${index}, ${follow}`} />
+      <title>{`${data} | ${title}`}</title>
+    </Helmet>
   )
 }
+
+export default SEO

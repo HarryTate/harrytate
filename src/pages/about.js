@@ -9,7 +9,7 @@ import harry from "../images/Harry.jpg"
 import cmi from "../images/cmi.svg"
 import creativeAsset from "../images/creative-asset.png"
 import das from "../images/das.png"
-import harryOG from "../images/opengrah/harry-og.jpg"
+import harryOG from "../images/opengraph/harry-og.jpg"
 
 const about = ({ data }) => {
   return (
@@ -58,7 +58,7 @@ const about = ({ data }) => {
                 outside of work learning PHP, React and Gatsby (what I built
                 using this site). Outside of work I enjoy going to the gym and
                 have recently taken up running hoping to one day complete a 10k
-                charity event.
+                charity event soon.
               </p>
             </div>
           </div>
