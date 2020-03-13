@@ -1,6 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
+import SEO from "../../components/SEO"
 import Header from "../../components/Header"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
@@ -15,6 +16,11 @@ import cmiShowcase from "../../images/showcase/cmi-showcase.png"
 const projects = ({ data }) => {
   return (
     <React.Fragment>
+      <SEO
+        title="Projects I've worked on"
+        description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. Checkout the projects he's worked on."
+        image={harryOG}
+      />
       <Helmet>
         <meta charSet="utf-8" />
         <meta

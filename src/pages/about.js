@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import { Helmet } from "react-helmet"
+import SEO from "../components/SEO"
 import Header from "../components/Header"
 import PageTitle from "../components/PageTitle"
 import Footer from "../components/Footer"
@@ -14,26 +14,11 @@ import harryOG from "../images/opengraph/harry-og.jpg"
 const about = ({ data }) => {
   return (
     <React.Fragment>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <meta
-          property="og:title"
-          content={`${data.site.siteMetadata.title} | About`}
-        />
-        <meta
-          property="og:description"
-          content="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
-        />
-        <meta property="og:image" content={harryOG} />
-        <link rel="canonical" href="http://harrytate.co.uk" />
-        <meta name="title" content={`${data.site.siteMetadata.title}`} />
-        <meta
-          name="description"
-          content="Harry Tate is a junior Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
-        />
-        <meta name="robots" content="index, follow" />
-        <title>{`${data.site.siteMetadata.title} | About`}</title>
-      </Helmet>
+      <SEO
+        title="About"
+        description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
+        image={harryOG}
+      />
       <Header />
       <PageTitle title="About Me" color="red" />
       <section className="section">
