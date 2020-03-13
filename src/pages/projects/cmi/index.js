@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../../../components/SEO"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -6,6 +7,7 @@ import Footer from "../../../components/Footer"
 import cmiFutureLeaders from "../../../images/projects/CMI/Future-Leaders-full.png"
 import cmiIWD from "../../../images/projects/CMI/IWD-full.png"
 import cmiManagement40 from "../../../images/projects/CMI/management-40-full.png"
+import harryOG from "../../../images/opengraph/harry-og.jpg"
 
 const cmi = () => {
   const images = [
@@ -25,6 +27,11 @@ const cmi = () => {
 
   return (
     <React.Fragment>
+      <SEO
+        title="Chartered Management Institute"
+        description="Harry has worked at the Chartered Management Institute since March 2018 as a Front-End Web developer. Since working here he has completed many campaigns ranging from Management 4.0 and National Apprenticeships Week."
+        image={harryOG}
+      />
       <Header />
       <PageTitle
         color="dark-grey"
@@ -32,7 +39,7 @@ const cmi = () => {
       />
       <ProjectDetails
         images={images}
-        name={"Chartered Management Institue CMI"}
+        name={"Chartered Management Institue"}
         client={"Chartered Management Institute"}
         techUsed={["HTML", "CSS", "JavaScript", "jQuery", "Sitecore CMS"]}
         date={"March 2018 - Present"}

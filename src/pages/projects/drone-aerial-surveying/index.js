@@ -1,4 +1,5 @@
 import React from "react"
+import SEO from "../../../components/SEO"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -6,6 +7,7 @@ import Footer from "../../../components/Footer"
 import dasMacbookLaptop from "../../../images/projects/DAS/macbook-laptop.png"
 import dasInfrastructure from "../../../images/projects/DAS/infrastructure-full.png"
 import dasDroneshot from "../../..//images/projects/DAS/droneshot-full.png"
+import harryOG from "../../../images/opengraph/harry-og.jpg"
 
 const DroneAerialSurveying = () => {
   const images = [
@@ -24,6 +26,12 @@ const DroneAerialSurveying = () => {
   ]
   return (
     <React.Fragment>
+      <SEO
+        title="Drone Aerial Surveying"
+        description="Drone Aerial Surveying are a start up that provide UAV Surveys in
+      Aerial Surveys based in the East of England."
+        image={harryOG}
+      />
       <Header />
       <PageTitle color="dark-grey" title="Drone Aerial Surveying" />
       <ProjectDetails
