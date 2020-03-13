@@ -43,7 +43,7 @@ const about = ({ data }) => {
                 outside of work learning PHP, React and Gatsby (what I built
                 using this site). Outside of work I enjoy going to the gym and
                 have recently taken up running hoping to one day complete a 10k
-                charity event soon.
+                charity event.
               </p>
             </div>
           </div>
