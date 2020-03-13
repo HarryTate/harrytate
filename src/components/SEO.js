@@ -36,6 +36,10 @@ export const SEO = ({
             <meta name="twitter:site" content="https://www.harrytate.co.uk" />
             <meta name="twitter:creator" content="@HarryJTate" />
             <meta name="robots" content={`${index}, ${follow}`} />
+            <meta
+              name="google-site-verification"
+              content="3GBnO82-rJIgf54Sdz1xKngYUXGIZ1C13ejBBmGxGTs"
+            />
             <title>{`${data.site.siteMetadata.title} | ${title}`}</title>
           </Helmet>
         )}
