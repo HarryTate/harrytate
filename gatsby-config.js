@@ -7,8 +7,10 @@
 module.exports = {
   siteMetadata: {
     title: `Harry Tate | Front-End Web Developer`,
+    siteUrl: `https://www.harrytate.co.uk`,
   },
   plugins: [
+    `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-sass`,
     {
