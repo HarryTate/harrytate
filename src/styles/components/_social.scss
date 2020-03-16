@@ -1,0 +1,19 @@
+.social {
+  font-size: 1.1rem;
+  text-align: center;
+
+  &--centered .social__list-item {
+    margin: 0 .5rem;
+  }
+
+  &__list-item {
+    margin-right: .5rem;
+    display: inline-block;
+  }
+
+  &__icon {
+    background-color: $red;
+    width: 52px;
+    padding: 12px;
+  }
+}

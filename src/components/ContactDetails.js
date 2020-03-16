@@ -1,7 +1,5 @@
 import React from "react"
-import codepen from "../images/social-icons/codepen.svg"
-import github from "../images/social-icons/github.svg"
-import linkedin from "../images/social-icons/linkedin.svg"
+import Social from "../components/Social"
 
 const ContactDetails = () => {
   return (
@@ -15,38 +13,7 @@ const ContactDetails = () => {
       </div>
       <div className="contact-details__item">
         <p className="contact-details__subheading">Follow</p>
-        <ul className="contact-details__details">
-          <li className="contact-details__list-item">
-            <a href="https://github.com/HarryTate">
-              <span className="sr-only">Github</span>
-              <img
-                src={github}
-                alt="Github"
-                className="contact-details__icon"
-              />
-            </a>
-          </li>
-          <li className="contact-details__list-item">
-            <a href="https://www.linkedin.com/in/harry-tate-0576a814b/">
-              <span className="sr-only">Linkedin</span>
-              <img
-                src={linkedin}
-                alt="Linkedin"
-                className="contact-details__icon"
-              />
-            </a>
-          </li>
-          <li className="contact-details__list-item">
-            <a href="https://codepen.io/harrytate">
-              <span className="sr-only">Codepen</span>
-              <img
-                src={codepen}
-                alt="Codepen"
-                className="contact-details__icon"
-              />
-            </a>
-          </li>
-        </ul>
+        <Social centered={true} />
       </div>
     </div>
   )
