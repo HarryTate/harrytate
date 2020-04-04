@@ -1,5 +1,4 @@
 import React from "react"
-
 const ContactForm = () => {
   return (
     <div className="contact-form">
@@ -9,6 +8,7 @@ const ContactForm = () => {
         method="post"
         netlify-honeypot="bot-field"
         data-netlify="true"
+        action="/contact/success"
       >
         <input type="hidden" name="contact" value="contact" />
         <input type="hidden" name="bot-field" />
