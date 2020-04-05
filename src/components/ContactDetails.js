@@ -12,6 +12,12 @@ const ContactDetails = () => {
         </p>
       </div>
       <div className="contact-details__item">
+        <p className="contact-details__subheading">Phone</p>
+        <p className="contact-details__details">
+          <a href="tel:07710 544 171">07710 544 171</a>
+        </p>
+      </div>
+      <div className="contact-details__item">
         <p className="contact-details__subheading">Follow</p>
         <Social centered={true} />
       </div>
