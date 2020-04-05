@@ -20,6 +20,7 @@ export default ({ data }) => {
       quoteName: "Nadeem Hanna",
     },
   ]
+
   return (
     <React.Fragment>
       <SEO
@@ -30,6 +31,7 @@ export default ({ data }) => {
       <Header />
       <HeroHome name={"Harry Tate"} content={"Front-End Web Developer"} />
       <Intro />
+      <Skills />
       <Skills />
       <Cards />
       <Testimonials quotes={quotes} />
