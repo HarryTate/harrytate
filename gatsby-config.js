@@ -8,17 +8,17 @@ module.exports = {
   siteMetadata: {
     title: `Harry Tate | Front-End Web Developer`,
     siteUrl: `https://www.harrytate.co.uk`,
+    skillsTitles: [
+      "HTML5",
+      "CSS",
+      "Javascript",
+      "jQuery",
+      "Sass",
+      "git",
+      "React",
+      "Webpack",
+    ],
   },
-  skillsTitles: [
-    "HTML5",
-    "CSS",
-    "Javascript",
-    "jQuery",
-    "Sass",
-    "git",
-    "React",
-    "Webpack",
-  ],
   plugins: [
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-offline`,

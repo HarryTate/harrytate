@@ -1,10 +1,11 @@
 import React from "react"
-import { graphql } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
+import Layout from "../components/layout/Layout"
 import SEO from "../components/SEO"
 import Header from "../components/Header"
 import HeroHome from "../components/HeroHome"
 import Intro from "../components/Intro"
-import Skills from "../components/Skills"
+import Skill from "../components/Skill"
 import Cards from "../components/Cards"
 import Testimonials from "../components/Testimonials"
 import Callout from "../components/Callout"
@@ -12,14 +13,49 @@ import Footer from "../components/Footer"
 import "../styles/main.scss"
 import harryOG from "../images/opengraph/harry-og.jpg"
 
-export default ({ data }) => {
+export default () => {
+  const data = useStaticQuery(graphql`
+    query Skills {
+      site {
+        siteMetadata {
+          skillsTitles
+        }
+      }
+      allFile(
+        filter: {
+          extension: { regex: "/(jpg)|(png)|(tif)|(tiff)|(webp)|(jpeg)/" }
+          absolutePath: { regex: "/images/skills/" }
+        }
+      ) {
+        edges {
+          node {
+            id
+            childImageSharp {
+              fixed(width: 100, height: 100) {
+                ...GatsbyImageSharpFixed
+              }
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+      }
+    }
+  `)
   const quotes = [
+    {
+      quote:
+        "I've worked within the same department as Harry for over two years - he is a hard-working, talented team-player who isn't afraid to share his knowledge and expertise with others.",
+      quoteName: "Daniel Mabbot",
+    },
     {
       quote:
         "Excellent web developer, hard working and very knowledgeable. Made me a fantastic website for an architectural practice.",
       quoteName: "Nadeem Hanna",
     },
   ]
+  console.log(data)
 
   return (
     <React.Fragment>
@@ -31,8 +67,17 @@ export default ({ data }) => {
       <Header />
       <HeroHome name={"Harry Tate"} content={"Front-End Web Developer"} />
       <Intro />
-      <Skills />
-      <Skills />
+      <Layout color="dark-grey" heading="Skills">
+        <ul className="skills">
+          {data.allFile.edges.map((skill, i) => (
+            <Skill
+              title={data.site.siteMetadata.skillsTitles[i]}
+              image={skill.node.childImageSharp.fixed}
+            />
+          ))}
+        </ul>
+      </Layout>
+
       <Cards />
       <Testimonials quotes={quotes} />
       <Callout
@@ -46,13 +91,3 @@ export default ({ data }) => {
     </React.Fragment>
   )
 }
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`
