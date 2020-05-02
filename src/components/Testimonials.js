@@ -20,7 +20,7 @@ export default function Testimonials(props) {
             {props.quotes.map((quote, index) => (
               <div key={index}>
                 <blockquote className="testimonials__quote">
-                  {quote.quote}
+                  {`"${quote.quote}"`}
                   <cite className="testimonials__name">{quote.quoteName}</cite>
                 </blockquote>
               </div>

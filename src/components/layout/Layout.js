@@ -1,11 +1,11 @@
 import React from "react"
 
-function Layout(props) {
+function Layout({ color, heading, children }) {
   return (
-    <section className={`section section--${props.color}`}>
+    <section className={`section section--${color}`}>
       <div className="container">
-        <h2 className="section--heading">{props.heading}</h2>
-        <div className="row">{props.children}</div>
+        <h2 className="section--heading">{heading}</h2>
+        {children}
       </div>
     </section>
   )
