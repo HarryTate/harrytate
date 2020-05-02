@@ -19,7 +19,7 @@ const Cards = () => {
           >
             <div className="card__content">
               <h3 className="card__heading">PPL Architects</h3>
-              <p className="card__text">An Architecture firm</p>
+              <p className="card__text">A fictional Architecture firm</p>
             </div>
           </Link>
           <Link
