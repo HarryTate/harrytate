@@ -31,7 +31,7 @@ const about = ({ data }) => {
               <h2 className="about__heading">Harry Tate</h2>
               <p>
                 <strong>
-                  Hello! I'm Harry, a Peterborough based Web developer who is
+                  Hi! I'm Harry, a Peterborough based Web developer who is
                   passionate about all things web related.
                 </strong>
               </p>
