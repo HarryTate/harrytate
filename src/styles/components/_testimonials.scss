@@ -9,6 +9,10 @@
     font-size: 1.4rem;
     text-align: center;
 
+    &:focus {
+      outline: none;
+    }
+
     @include for-tablet-portrait-up {
       padding: 0 65px;
     }

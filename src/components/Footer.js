@@ -18,13 +18,13 @@ const Footer = () => {
           <div className="footer-content">
             <h3 className="footer-content__heading">Explore</h3>
             <ul>
-              <li>
+              <li className="mb--quarter">
                 <Link to="/about/">About</Link>
               </li>
-              <li>
+              <li className="mb--quarter">
                 <Link to="/projects/">Projects</Link>
               </li>
-              <li>
+              <li className="mb--quarter">
                 <Link to="/contact/">Contact</Link>
               </li>
             </ul>

@@ -24,6 +24,10 @@
 }
 
 .mb {
+  &--quarter {
+    margin-bottom: .25rem;
+  }
+
   &--half {
     margin-bottom: .5rem;
   }
