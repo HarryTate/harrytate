@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/layout/Layout"
 import SEO from "../components/SEO"
@@ -93,9 +93,14 @@ export default () => {
       }
     }
   `)
-  console.log(data)
-
-  const quotes = [
+  const [quotes] = useState([
+    {
+      quote: `I've had the pleasure of working with Harry on two of my previous contracts and in that time I've seen Harry progress from junior to an impressive front-end developer.
+        Harry is a great team player, has excellent HTML, CSS and JavaScript skills, as well as knowledge of building templates for CMS, as well as Git and Sass.
+        He works well under pressure and I'm always impressed by how he doesn't let stress get to him.
+        Harry is hardworking and shows a willingness to learn new skills. He is an exceptional team player and a great addition to any team.`,
+      quoteName: "Juan Fernandes",
+    },
     {
       quote:
         "I've worked within the same department as Harry for over two years - he is a hard-working, talented team-player who isn't afraid to share his knowledge and expertise with others.",
@@ -106,9 +111,10 @@ export default () => {
         "Excellent web developer, hard working and very knowledgeable. Made me a fantastic website for an architectural practice.",
       quoteName: "Nadeem Hanna",
     },
-  ]
+  ])
 
-  const skills = data.allMarkdownRemark.nodes[0].frontmatter
+  const [skills] = useState(data.allMarkdownRemark.nodes[0].frontmatter)
+
   return (
     <React.Fragment>
       <SEO
@@ -155,7 +161,6 @@ export default () => {
           />
         </ul>
       </Layout>
-
       <Cards />
       <Testimonials quotes={quotes} />
       <Callout

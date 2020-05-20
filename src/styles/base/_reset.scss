@@ -63,3 +63,16 @@ fieldset {
   padding: 0;
   margin: 0;
 }
+
+// For Slick Slider
+.section--dark-grey .slick-dots li.slick-active button:before {
+  color: #fff;
+}
+
+.section--dark-grey .slick-dots li button:before {
+  color: $cream;
+}
+
+.slick-slide div:focus {
+  outline: none;
+}
