@@ -7,9 +7,7 @@ import Footer from "../../../components/Footer"
 import searchAirHome from "../../../images/projects/search-air/compressive-home.png"
 import searchAirServices from "../../../images/projects/search-air/compressive-services.png"
 import searchAirHowCanWeHelp from "../../../images/projects/search-air/compressive-how-can-we-help.png"
-
 import harryOG from "../../../images/opengraph/harry-og.jpg"
-import SeoComponent from "../../../components/SeoComponent"
 
 const SearchAir = () => {
     const images = [

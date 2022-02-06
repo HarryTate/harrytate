@@ -6,7 +6,6 @@ import PageTitle from "../../../components/PageTitle"
 import Footer from "../../../components/Footer"
 import ContactSuccess from "../../../components/ContactSuccess"
 import ContactDetails from "../../../components/ContactDetails"
-import SeoComponent from "../../../components/SeoComponent"
 
 const contact = () => {
   return (

@@ -7,9 +7,7 @@ import Footer from "../../../components/Footer"
 import orsettHeathHome from "../../../images/projects/orsett-heath-academy/orsett-heath-about-us.png"
 import orsettHeathServices from "../../../images/projects/orsett-heath-academy/orsett-heath-curriculum-support.png"
 import orsettHeathHowCanWeHelp from "../../../images/projects/orsett-heath-academy/orsett-heath-expectations.png"
-
 import harryOG from "../../../images/opengraph/harry-og.jpg"
-import SeoComponent from "../../../components/SeoComponent"
 
 const OrsettHeath = () => {
     const images = [

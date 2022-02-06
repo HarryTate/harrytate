@@ -10,7 +10,7 @@ import PPLHome from "../../../images/projects/PPL/home-full.png"
 import PPLContact from "../../../images/projects/PPL/contact-full.png"
 import PPLServices from "../../../images/projects/PPL/services-full.png"
 import harryOG from "../../../images/opengraph/harry-og.jpg"
-import SeoComponent from "../../../components/SeoComponent"
+
 const PPLArchitects = () => {
   const images = [
     {
