@@ -10,11 +10,11 @@ import ContactDetails from "../../components/ContactDetails"
 const contact = () => {
   return (
     <React.Fragment>
-      <Seo
+      {/* <Seo
         title="Get in touch"
         description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
         image={harryOG}
-      />
+      /> */}
       <Header />
       <PageTitle title="Contact" color="dark-grey" />
       <section className="section">

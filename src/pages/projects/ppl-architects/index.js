@@ -35,11 +35,11 @@ const PPLArchitects = () => {
   ]
   return (
     <React.Fragment>
-      <Seo
+      {/* <Seo
         title="Home"
         description="PPL Architects is a webiste built by Front End Developer Harry Tate. PPL Architects is a fictional Architecture practice that was completed for a University project by students at the University of Manchester"
         image={harryOG}
-      />
+      /> */}
       <Header />
       <PageTitle color="dark-grey" title="PPL Architects" />
       <ProjectDetails
