@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/layout/Layout"
-import SEO from "../components/SEO"
+import Seo from "../components/Seo"
 import Header from "../components/Header"
 import HeroHome from "../components/HeroHome"
 import Intro from "../components/Intro"
@@ -13,7 +13,7 @@ import Footer from "../components/Footer"
 import harryOG from "../images/opengraph/harry-og.jpg"
 import "../styles/main.scss"
 
-export default () => {
+const Home = () => {
   const data = useStaticQuery(graphql`
     query Skills {
       site {
@@ -29,9 +29,9 @@ export default () => {
             html
             javascript
             jquery
-            react
+            vue
             sass
-            webpack
+            php
             cssImage {
               childImageSharp {
                 fixed(width: 100, height: 100) {
@@ -67,13 +67,6 @@ export default () => {
                 }
               }
             }
-            reactImage {
-              childImageSharp {
-                fixed(width: 100, height: 100) {
-                  ...GatsbyImageSharpFixed
-                }
-              }
-            }
             sassImage {
               childImageSharp {
                 fixed(width: 100, height: 100) {
@@ -81,7 +74,14 @@ export default () => {
                 }
               }
             }
-            webpackImage {
+            phpImage {
+              childImageSharp {
+                fixed(width: 100, height: 100) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+            vueImage {
               childImageSharp {
                 fixed(width: 100, height: 100) {
                   ...GatsbyImageSharpFixed
@@ -117,13 +117,13 @@ export default () => {
 
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="Home"
-        description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
+        description="Harry Tate is a Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
         image={harryOG}
       />
       <Header />
-      <HeroHome name={"Harry Tate"} content={"Front-End Web Developer"} />
+      <HeroHome name={"Harry Tate"} content={"Web Developer"} />
       <Intro />
       <Layout color="dark-grey" heading="Skills">
         <ul className="skills">
@@ -152,13 +152,14 @@ export default () => {
             title={skills.versionControl}
           />
           <Skill
-            image={skills.reactImage.childImageSharp.fixed}
-            title={skills.react}
+            image={skills.vueImage.childImageSharp.fixed}
+            title={skills.vue}
           />
           <Skill
-            image={skills.webpackImage.childImageSharp.fixed}
-            title={skills.webpack}
+            image={skills.phpImage.childImageSharp.fixed}
+            title={skills.php}
           />
+
         </ul>
       </Layout>
       <Cards />
@@ -174,3 +175,5 @@ export default () => {
     </React.Fragment>
   )
 }
+
+export default Home;

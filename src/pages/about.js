@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import SEO from "../components/SEO"
+import Seo from "../components/Seo"
 import Header from "../components/Header"
 import PageTitle from "../components/PageTitle"
 import Footer from "../components/Footer"
@@ -8,15 +8,20 @@ import Callout from "../components/Callout"
 import harry from "../images/Harry.jpg"
 import cmi from "../images/cmi.svg"
 import creativeAsset from "../images/creative-asset.png"
-import das from "../images/das.png"
+import speedAgency from "../images/speed-agency.svg"
+import bgl from "../images/bgl.svg"
+import swecet from "../images/swecet.png"
+
+
+
 import harryOG from "../images/opengraph/harry-og.jpg"
 
 const about = ({ data }) => {
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="About"
-        description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
+        description="Harry Tate is a Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
         image={harryOG}
       />
       <Header />
@@ -36,12 +41,9 @@ const about = ({ data }) => {
                 </strong>
               </p>
               <p>
-                After completing a short internship at a digital agency in
-                Nottingham I then landed my first permanent Web Developer job at
-                the Chartered Management Institute. I enjoy writing in languages
-                such as HTML, CSS, Javascript and jQuery and spend my time
-                outside of work learning PHP, React and Gatsby (what I built
-                using this site). Outside of work I enjoy going to the gym and
+                I'm currently working as a Front-End Developer at a digital agency.
+                I enjoy writing in languages such as <strong>HTML</strong>, <strong>CSS</strong>, <strong>Javascript</strong> and <strong>PHP</strong>.
+                Outside of work I enjoy going to the gym and
                 have recently taken up running hoping to one day complete a 10k
                 charity event.
               </p>
@@ -66,8 +68,22 @@ const about = ({ data }) => {
             <div className="logo-row__item">
               <img
                 className="logo-row__img logo-row__img"
-                src={das}
-                alt="Creative Asset Logo"
+                src={speedAgency}
+                alt="Speed Agency Logo"
+              />
+            </div>
+            <div className="logo-row__item">
+              <img
+                className="logo-row__img logo-row__img"
+                src={bgl}
+                alt="BGL Logo"
+              />
+            </div>
+            <div className="logo-row__item">
+              <img
+                className="logo-row__img logo-row__img"
+                src={swecet}
+                alt="South West Essex Community Education Trust Logo"
               />
             </div>
           </div>

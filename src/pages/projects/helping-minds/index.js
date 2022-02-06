@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../../../components/SEO"
+import Seo from "../../../components/Seo"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -31,7 +31,7 @@ const HelpingMinds = () => {
   ]
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="Helping Minds"
         description="Helping Minds is a website aimed at student struggling with their mental health. The website aims to provide guidance and advice to undergraduate students"
         image={harryOG}

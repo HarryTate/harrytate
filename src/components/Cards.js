@@ -5,6 +5,9 @@ import pplBuilding from "../images/ppl-building.jpg"
 import helpingMindsStudent from "../images/helping-minds-student.jpg"
 import dasController from "../images/das-controller.jpg"
 import cmiBusinessMan from "../images/cmi.jpg"
+import orsettHeathCard from "../images/orsett-heath-card.png"
+import searchAirCard from "../images/search-air-card.png"
+
 
 const Cards = () => {
   return (
@@ -13,6 +16,26 @@ const Cards = () => {
         <h2 className="section--heading text--blue">Recent Work</h2>
         <div className="cards">
           <Link
+            to="/projects/search-air/"
+            className="card"
+            style={{ backgroundImage: `url(${searchAirCard})` }}
+          >
+            <div className="card__content">
+              <h3 className="card__heading">Search Air</h3>
+              <p className="card__text">Compressed Air Solutions</p>
+            </div>
+          </Link>
+          <Link
+            to="/projects/orsett-heath-academy/"
+            className="card"
+            style={{ backgroundImage: `url(${orsettHeathCard})` }}
+          >
+            <div className="card__content">
+              <h3 className="card__heading">Orsett Heath Academy</h3>
+              <p className="card__text">A modern secondary school</p>
+            </div>
+          </Link>
+          <Link
             to="/projects/ppl-architects/"
             className="card"
             style={{ backgroundImage: `url(${pplBuilding})` }}
@@ -20,29 +43,6 @@ const Cards = () => {
             <div className="card__content">
               <h3 className="card__heading">PPL Architects</h3>
               <p className="card__text">A fictional Architecture firm</p>
-            </div>
-          </Link>
-          <Link
-            to="/projects/helping-minds/"
-            className="card"
-            style={{ backgroundImage: `url(${helpingMindsStudent})` }}
-          >
-            <div className="card__content">
-              <h3 className="card__heading">Helping Minds</h3>
-              <p className="card__text">
-                A support network for people struggling with their mental
-                health.
-              </p>
-            </div>
-          </Link>
-          <Link
-            to="/projects/drone-aerial-surveying/"
-            className="card"
-            style={{ backgroundImage: `url(${dasController})` }}
-          >
-            <div className="card__content">
-              <h3 className="card__heading">Drone Aerial Surveying</h3>
-              <p className="card__text">A start-up UAV surveying company.</p>
             </div>
           </Link>
           <Link

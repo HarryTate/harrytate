@@ -14,12 +14,13 @@ javascriptImage: "javascript.png"
 jquery: "jQuery"
 jqueryImage: "jquery.png"
 
-react: "React"
-reactImage: "react.png"
+vue: "Vue"
+vueImage: "vue.png"
 
 sass: "Sass"
 sassImage: "sass.png"
 
-webpack: "Webpack"
-webpackImage: "webpack.png"
+php: "PHP"
+phpImage: "php.png"
+
 ---

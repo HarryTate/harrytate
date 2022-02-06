@@ -7,16 +7,15 @@ const Intro = () => (
       <div className="intro__content">
         <p className="intro__content-text">
           Hi, I'm Harry and I'm passionate about building responsive, user
-          friendly websites. I'm currently working at the&nbsp;
+          friendly websites. I'm currently working at&nbsp;
           <a
             className="text--bold"
-            href="https://www.managers.org.uk"
+            href="https://www.speed.agency"
             target="_blank"
             rel="noopener noreferrer"
-          >
-            Chartered Management Institute
+          >Speed Agency
           </a>
-          &nbsp;as a Front-End Developer. In 2017 I completed a degree in
+          &nbsp;as a Client Side Developer. In 2017 I completed a degree in
           Computing BSc at Nottingham Trent University.
         </p>
       </div>

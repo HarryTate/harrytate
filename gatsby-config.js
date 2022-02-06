@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: `Harry Tate | Front-End Web Developer`,
+    title: `Harry Tate | Web Developer`,
     siteUrl: `https://www.harrytate.co.uk`,
     skillsTitles: [
       "HTML5",
@@ -15,8 +15,8 @@ module.exports = {
       "jQuery",
       "Sass",
       "git",
-      "React",
-      "Webpack",
+      "Vue",
+      "php",
     ],
   },
   plugins: [
@@ -52,18 +52,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          {
-            family: `Rubik`,
-            variants: [`400`, `700`],
-          },
-          {
-            family: `Rubik`,
-            subsets: [`latin`],
-          },
+          `Rubik\:100,200,300,400,500,600,700,800,900`
         ],
+        // {
+        //   family: `Rubik`,
+        //   subsets: [`latin`],
+        // },
       },
     },
   ],

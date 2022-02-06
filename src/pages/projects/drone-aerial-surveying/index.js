@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../../../components/SEO"
+import Seo from "../../../components/Seo"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -26,7 +26,7 @@ const DroneAerialSurveying = () => {
   ]
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="Drone Aerial Surveying"
         description="Drone Aerial Surveying are a start up that provide UAV Surveys in
       Aerial Surveys based in the East of England."
@@ -57,7 +57,6 @@ const DroneAerialSurveying = () => {
             <li>Smooth scrolling navigation</li>
           </ul>
         }
-        siteLink={"https://droneaerialsurveying.com/"}
       />
       <Footer />
     </React.Fragment>

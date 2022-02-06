@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../../../components/SEO"
+import Seo from "../../../components/Seo"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -35,7 +35,7 @@ const PPLArchitects = () => {
   ]
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="Home"
         description="PPL Architects is a webiste built by Front End Developer Harry Tate. PPL Architects is a fictional Architecture practice that was completed for a University project by students at the University of Manchester"
         image={harryOG}

@@ -1,5 +1,5 @@
 import React from "react"
-import SEO from "../../../components/SEO"
+import Seo from "../../../components/Seo"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -27,7 +27,7 @@ const cmi = () => {
 
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="Chartered Management Institute"
         description="Harry has worked at the Chartered Management Institute since March 2018 as a Front-End Web developer. Since working here he has completed many campaigns ranging from Management 4.0 and National Apprenticeships Week."
         image={harryOG}
@@ -39,7 +39,7 @@ const cmi = () => {
       />
       <ProjectDetails
         images={images}
-        name={"Chartered Management Institue"}
+        name={"Chartered Management Institute"}
         client={"Chartered Management Institute"}
         techUsed={["HTML", "CSS", "JavaScript", "jQuery", "Sitecore CMS"]}
         date={"March 2018 - Present"}

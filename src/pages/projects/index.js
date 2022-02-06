@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
-import SEO from "../../components/SEO"
+import Seo from "../../components/Seo"
 import Header from "../../components/Header"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
@@ -12,11 +12,15 @@ import pplShowcase from "../../images/showcase/ppl-showcase.png"
 import helpingMindsShowcase from "../../images/showcase/helping-minds-showcase.png"
 import dasShowcase from "../../images/showcase/das-showcase.png"
 import cmiShowcase from "../../images/showcase/cmi-showcase.png"
+import compressiveShowcase from "../../images/showcase/compressive-showcase.png"
+import orsettHeathShowcase from "../../images/showcase/orsett-heath-showcase.png"
+
+
 
 const projects = ({ data }) => {
   return (
     <React.Fragment>
-      <SEO
+      <Seo
         title="Projects I've worked on"
         description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. Checkout the projects he's worked on."
         image={harryOG}
@@ -49,6 +53,16 @@ const projects = ({ data }) => {
       <div className="section">
         <div className="container">
           <div className="row row--space-around row--flex-wrap">
+            <ProjectBrowse
+              title="Search Air"
+              link="/projects/compressive/"
+              img={compressiveShowcase}
+            />
+            <ProjectBrowse
+              title="Orsett Heath Academy"
+              link="/projects/orsett-heath-academy/"
+              img={orsettHeathShowcase}
+            />
             <ProjectBrowse
               title="PPL Architecture"
               link="/projects/ppl-architects/"
