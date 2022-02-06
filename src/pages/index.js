@@ -12,7 +12,6 @@ import Callout from "../components/Callout"
 import Footer from "../components/Footer"
 import harryOG from "../images/opengraph/harry-og.jpg"
 import "../styles/main.scss"
-import SeoComponent from "../components/SeoComponent"
 
 const Home = () => {
   const data = useStaticQuery(graphql`
