@@ -11,9 +11,6 @@ import creativeAsset from "../images/creative-asset.png"
 import speedAgency from "../images/speed-agency.svg"
 import bgl from "../images/bgl.svg"
 import swecet from "../images/swecet.png"
-
-
-
 import harryOG from "../images/opengraph/harry-og.jpg"
 
 const about = ({ data }) => {
