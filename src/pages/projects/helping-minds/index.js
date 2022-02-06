@@ -9,7 +9,6 @@ import helpingMindsAbout from "../../../images/projects/helping-minds/about-full
 import helpingMindsMentalHealth from "../../../images/projects/helping-minds/mental-health-full.png"
 import helpingMindsSignsSymptoms from "../../../images/projects/helping-minds/signs-symptoms-full.png"
 import harryOG from "../../../images/opengraph/harry-og.jpg"
-import SeoComponent from "../../../components/SeoComponent"
 
 const HelpingMinds = () => {
   const images = [
