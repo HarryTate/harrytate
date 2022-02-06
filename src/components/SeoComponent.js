@@ -2,7 +2,7 @@ import React from "react"
 import { StaticQuery, graphql } from "gatsby"
 import { Helmet } from "react-helmet"
 
-const Seo = ({
+const SeoComponent = ({
   title,
   description,
   image,
@@ -48,4 +48,4 @@ const Seo = ({
   )
 }
 
-export default Seo
+export default SeoComponent

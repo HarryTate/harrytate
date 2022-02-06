@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "../../../components/Seo"
+import SeoComponent from "../../../components/SeoComponent"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -9,6 +9,7 @@ import helpingMindsAbout from "../../../images/projects/helping-minds/about-full
 import helpingMindsMentalHealth from "../../../images/projects/helping-minds/mental-health-full.png"
 import helpingMindsSignsSymptoms from "../../../images/projects/helping-minds/signs-symptoms-full.png"
 import harryOG from "../../../images/opengraph/harry-og.jpg"
+import SeoComponent from "../../../components/SeoComponent"
 
 const HelpingMinds = () => {
   const images = [
@@ -31,7 +32,7 @@ const HelpingMinds = () => {
   ]
   return (
     <React.Fragment>
-      <Seo
+      <SeoComponent
         title="Helping Minds"
         description="Helping Minds is a website aimed at student struggling with their mental health. The website aims to provide guidance and advice to undergraduate students"
         image={harryOG}
