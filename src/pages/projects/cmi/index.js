@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "../../../components/Seo"
+// import Seo from "../../../components/Seo"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"

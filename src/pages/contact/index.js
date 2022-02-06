@@ -1,5 +1,5 @@
 import React from "react"
-import Seo from "../../components/Seo"
+// import Seo from "../../components/Seo"
 import Header from "../../components/Header"
 import harryOG from "../../images/opengraph/harry-og.jpg"
 import PageTitle from "../../components/PageTitle"
