@@ -2,12 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import "../styles/main.scss"
 import pplBuilding from "../images/ppl-building.jpg"
-// import helpingMindsStudent from "../images/helping-minds-student.jpg"
-// import dasController from "../images/das-controller.jpg"
 import cmiBusinessMan from "../images/cmi.jpg"
 import orsettHeathCard from "../images/orsett-heath-card.png"
 import searchAirCard from "../images/search-air-card.png"
-
 
 const Cards = () => {
   return (
