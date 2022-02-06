@@ -27,11 +27,11 @@ const cmi = () => {
 
   return (
     <React.Fragment>
-      <Seo
+      {/* <Seo
         title="Chartered Management Institute"
         description="Harry has worked at the Chartered Management Institute since March 2018 as a Front-End Web developer. Since working here he has completed many campaigns ranging from Management 4.0 and National Apprenticeships Week."
         image={harryOG}
-      />
+      /> */}
       <Header />
       <PageTitle
         color="dark-grey"

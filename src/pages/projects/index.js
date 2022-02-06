@@ -20,11 +20,11 @@ import orsettHeathShowcase from "../../images/showcase/orsett-heath-showcase.png
 const projects = ({ data }) => {
   return (
     <React.Fragment>
-      <Seo
+      {/* <Seo
         title="Projects I've worked on"
         description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. Checkout the projects he's worked on."
         image={harryOG}
-      />
+      /> */}
       <Helmet>
         <meta charSet="utf-8" />
         <meta

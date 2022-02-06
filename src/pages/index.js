@@ -117,11 +117,11 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      <Seo
+      {/* <Seo
         title="Home"
         description="Harry Tate is a Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
         image={harryOG}
-      />
+      /> */}
       <Header />
       <HeroHome name={"Harry Tate"} content={"Web Developer"} />
       <Intro />

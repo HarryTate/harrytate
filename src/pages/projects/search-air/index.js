@@ -28,11 +28,11 @@ const SearchAir = () => {
 
     return (
         <React.Fragment>
-            <Seo
+            {/* <Seo
                 title="Search Air"
                 description="Harry Tate is a Web Developer who works at at Speed Agency."
                 image={harryOG}
-            />
+            /> */}
             <Header />
             <PageTitle
                 color="dark-grey"

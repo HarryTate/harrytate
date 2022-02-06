@@ -16,11 +16,11 @@ import harryOG from "../images/opengraph/harry-og.jpg"
 const about = ({ data }) => {
   return (
     <React.Fragment>
-      <Seo
+      {/* <Seo
         title="About"
         description="Harry Tate is a Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
         image={harryOG}
-      />
+      /> */}
       <Header />
       <PageTitle title="About Me" color="red" />
       <section className="section">

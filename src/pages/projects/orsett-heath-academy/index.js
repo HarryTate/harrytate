@@ -28,11 +28,11 @@ const OrsettHeath = () => {
 
     return (
         <React.Fragment>
-            <Seo
+            {/* <Seo
                 title="Orsett Heath Academy"
                 description="Harry Tate is a Web Developer who works at at Speed Agency."
                 image={harryOG}
-            />
+            /> */}
             <Header />
             <PageTitle
                 color="dark-grey"
