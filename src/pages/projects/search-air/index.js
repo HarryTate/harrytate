@@ -1,5 +1,5 @@
 import React from "react"
-// import Seo from "../../../components/Seo"
+import SeoComponent from "../../../components/SeoComponent"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -9,6 +9,7 @@ import searchAirServices from "../../../images/projects/search-air/compressive-s
 import searchAirHowCanWeHelp from "../../../images/projects/search-air/compressive-how-can-we-help.png"
 
 import harryOG from "../../../images/opengraph/harry-og.jpg"
+import SeoComponent from "../../../components/SeoComponent"
 
 const SearchAir = () => {
     const images = [
@@ -28,11 +29,11 @@ const SearchAir = () => {
 
     return (
         <React.Fragment>
-            {/* <Seo
+            <SeoComponent
                 title="Search Air"
                 description="Harry Tate is a Web Developer who works at at Speed Agency."
                 image={harryOG}
-            /> */}
+            />
             <Header />
             <PageTitle
                 color="dark-grey"

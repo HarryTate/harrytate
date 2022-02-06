@@ -1,5 +1,5 @@
 import React from "react"
-// import Seo from "../../../components/Seo"
+import SeoComponent from "../../../components/SeoComponent"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -9,6 +9,7 @@ import orsettHeathServices from "../../../images/projects/orsett-heath-academy/o
 import orsettHeathHowCanWeHelp from "../../../images/projects/orsett-heath-academy/orsett-heath-expectations.png"
 
 import harryOG from "../../../images/opengraph/harry-og.jpg"
+import SeoComponent from "../../../components/SeoComponent"
 
 const OrsettHeath = () => {
     const images = [
@@ -28,11 +29,11 @@ const OrsettHeath = () => {
 
     return (
         <React.Fragment>
-            {/* <Seo
+            <SeoComponent
                 title="Orsett Heath Academy"
                 description="Harry Tate is a Web Developer who works at at Speed Agency."
                 image={harryOG}
-            /> */}
+            />
             <Header />
             <PageTitle
                 color="dark-grey"

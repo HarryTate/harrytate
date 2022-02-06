@@ -1,5 +1,5 @@
 import React from "react"
-// import Seo from "../../../components/Seo"
+import SeoComponent from "../../../components/SeoComponent"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -27,11 +27,11 @@ const cmi = () => {
 
   return (
     <React.Fragment>
-      {/* <Seo
+      <SeoComponent
         title="Chartered Management Institute"
         description="Harry has worked at the Chartered Management Institute since March 2018 as a Front-End Web developer. Since working here he has completed many campaigns ranging from Management 4.0 and National Apprenticeships Week."
         image={harryOG}
-      /> */}
+      />
       <Header />
       <PageTitle
         color="dark-grey"

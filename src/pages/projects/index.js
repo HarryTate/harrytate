@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
-// import Seo from "../../components/Seo"
+import SeoComponent from "../../components/SeoComponent"
 import Header from "../../components/Header"
 import PageTitle from "../../components/PageTitle"
 import Footer from "../../components/Footer"
@@ -20,11 +20,11 @@ import orsettHeathShowcase from "../../images/showcase/orsett-heath-showcase.png
 const projects = ({ data }) => {
   return (
     <React.Fragment>
-      {/* <Seo
+      <SeoComponent
         title="Projects I've worked on"
         description="Harry Tate is a Junior Front-End Developer based in Peterborough, Cambridgeshire. Checkout the projects he's worked on."
         image={harryOG}
-      /> */}
+      />
       <Helmet>
         <meta charSet="utf-8" />
         <meta

@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Layout from "../components/layout/Layout"
-// import Seo from "../components/Seo"
+import SeoComponent from "../components/SeoComponent"
 import Header from "../components/Header"
 import HeroHome from "../components/HeroHome"
 import Intro from "../components/Intro"
@@ -12,6 +12,7 @@ import Callout from "../components/Callout"
 import Footer from "../components/Footer"
 import harryOG from "../images/opengraph/harry-og.jpg"
 import "../styles/main.scss"
+import SeoComponent from "../components/SeoComponent"
 
 const Home = () => {
   const data = useStaticQuery(graphql`
@@ -117,11 +118,11 @@ const Home = () => {
 
   return (
     <React.Fragment>
-      {/* <Seo
+      <SeoComponent
         title="Home"
         description="Harry Tate is a Front-End Developer based in Peterborough, Cambridgeshire. He specialises in web development, web design and building web apps."
         image={harryOG}
-      /> */}
+      />
       <Header />
       <HeroHome name={"Harry Tate"} content={"Web Developer"} />
       <Intro />

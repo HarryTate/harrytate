@@ -1,5 +1,5 @@
 import React from "react"
-// import Seo from "../../../components/Seo"
+import SeoComponent from "../../../components/SeoComponent"
 import Header from "../../../components/Header"
 import PageTitle from "../../../components/PageTitle"
 import ProjectDetails from "../../../components/ProjectDetails"
@@ -26,12 +26,12 @@ const DroneAerialSurveying = () => {
   ]
   return (
     <React.Fragment>
-      {/* <Seo
+      <SeoComponent
         title="Drone Aerial Surveying"
         description="Drone Aerial Surveying are a start up that provide UAV Surveys in
       Aerial Surveys based in the East of England."
         image={harryOG}
-      /> */}
+      />
       <Header />
       <PageTitle color="dark-grey" title="Drone Aerial Surveying" />
       <ProjectDetails
